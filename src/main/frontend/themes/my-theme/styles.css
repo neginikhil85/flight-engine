@@ -1,0 +1,11 @@
+@import 'headers.css';
+@import 'grid.css';
+@import 'fonts.css'
+@import 'cards.css';
+@import 'labeled-value.css';
+
+html {
+    --vaadin-app-layout-drawer-width : 12em;
+    --lumo-font-family: 'Poppins';
+}
+

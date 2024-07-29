@@ -1,0 +1,21 @@
+/* headers-css */
+
+.app-header {
+    background-color: #000099;
+    height: 60px;
+}
+
+.app-header vaadin-drawer-toggle {
+    background-color: white;
+    height: 30px;
+    width: 30px;
+}
+
+.app-header img {
+    height: 80px;
+}
+
+.app-header h1 {
+    font-size: 29px;
+    color: white;
+}
