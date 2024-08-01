@@ -19,16 +19,9 @@ public class LabeledValue extends HorizontalLayout {
         this.value = new Span(initialValue);
         this.value.addClassName("lv-value");
 
-//        // Use Flex Layout to align label and value
-//        setDefaultVerticalComponentAlignment(Alignment.CENTER);
-//
-//        // Ensure horizontal spacing between label and value
-//        setSpacing(true);
-//        setPadding(false);
-
         addClassName("labeled-value");
 
-        add(label, value);
+        add(value); // label
     }
 
     public void setValue(String newValue) {

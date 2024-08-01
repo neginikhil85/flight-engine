@@ -7,6 +7,7 @@ import com.vaadin.flow.component.ComponentEventListener;
 import com.vaadin.flow.component.html.Div;
 import com.vaadin.flow.component.html.H1;
 import com.vaadin.flow.component.orderedlayout.VerticalLayout;
+import org.springframework.util.StringUtils;
 
 import java.awt.Color;
 import java.util.Collection;
@@ -29,8 +30,10 @@ public class CustomCard extends VerticalLayout {
         cardContent.addClassName("custom-card");
 
         // Create the title element
-        H1 cardTitle = new H1(title);
-        this.addContent(cardTitle, Alignment.CENTER);
+        if (StringUtils.hasText(title)) {
+            H1 cardTitle = new H1(title);
+            this.addContent(cardTitle, Alignment.CENTER);
+        }
 
         // Add the card content to the layout
         add(cardContent);
@@ -44,6 +47,7 @@ public class CustomCard extends VerticalLayout {
     public void addLabeledValue(Collection<LabeledValue> components) {
         components.forEach(this::addContent);
     }
+
 
     public void addContent(Component component) {
         addContent(component, Alignment.AUTO);

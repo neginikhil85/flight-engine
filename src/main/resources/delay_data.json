@@ -1,0 +1,151 @@
+[
+  {
+    "flightNumber": 1112,
+    "carrier": "6E",
+    "dateOfOrigin": "2024-08-01",
+    "startStation": "JFK",
+    "endStation": "LAX",
+    "scheduleStartTime": "10:00 AM",
+    "delayLimit": "30 mins",
+    "remarks": "Weather delay",
+    "total": 2,
+    "delays": [
+      {
+        "time": "10:15 AM",
+        "reason": "Weather",
+        "delayNumber": "D001",
+        "isRootCause": true,
+        "remark": "Heavy rain"
+      },
+      {
+        "time": "10:30 AM",
+        "reason": "Technical issue",
+        "delayNumber": "D002",
+        "isRootCause": false,
+        "remark": "Engine check"
+      }
+    ]
+  },
+  {
+    "flightNumber": 2233,
+    "carrier": "6E",
+    "dateOfOrigin": "2024-08-01",
+    "startStation": "ATL",
+    "endStation": "ORD",
+    "scheduleStartTime": "12:00 PM",
+    "delayLimit": "45 mins",
+    "remarks": "Technical issue",
+    "total": 3,
+    "delays": [
+      {
+        "time": "12:15 PM",
+        "reason": "Technical issue",
+        "delayNumber": "D003",
+        "isRootCause": true,
+        "remark": "Engine maintenance"
+      },
+      {
+        "time": "12:30 PM",
+        "reason": "Staff shortage",
+        "delayNumber": "D004",
+        "isRootCause": false,
+        "remark": "Crew member late"
+      },
+      {
+        "time": "12:45 PM",
+        "reason": "Weather",
+        "delayNumber": "D005",
+        "isRootCause": false,
+        "remark": "Thunderstorm"
+      }
+    ]
+  },
+  {
+    "flightNumber": 3344,
+    "carrier": "6E",
+    "dateOfOrigin": "2024-08-02",
+    "startStation": "SFO",
+    "endStation": "SEA",
+    "scheduleStartTime": "02:00 PM",
+    "delayLimit": "20 mins",
+    "remarks": "Operational delay",
+    "total": 1,
+    "delays": [
+      {
+        "time": "02:10 PM",
+        "reason": "Operational",
+        "delayNumber": "D006",
+        "isRootCause": true,
+        "remark": "Late arrival of aircraft"
+      }
+    ]
+  },
+  {
+    "flightNumber": 4455,
+    "carrier": "6E",
+    "dateOfOrigin": "2024-08-03",
+    "startStation": "LAX",
+    "endStation": "DEN",
+    "scheduleStartTime": "04:00 PM",
+    "delayLimit": "60 mins",
+    "remarks": "Multiple issues",
+    "total": 4,
+    "delays": [
+      {
+        "time": "04:10 PM",
+        "reason": "Weather",
+        "delayNumber": "D007",
+        "isRootCause": true,
+        "remark": "Strong winds"
+      },
+      {
+        "time": "04:20 PM",
+        "reason": "Technical issue",
+        "delayNumber": "D008",
+        "isRootCause": false,
+        "remark": "Navigation system check"
+      },
+      {
+        "time": "04:30 PM",
+        "reason": "Staff shortage",
+        "delayNumber": "D009",
+        "isRootCause": false,
+        "remark": "Pilot delayed"
+      },
+      {
+        "time": "04:40 PM",
+        "reason": "Operational",
+        "delayNumber": "D010",
+        "isRootCause": false,
+        "remark": "Baggage loading delay"
+      }
+    ]
+  },
+  {
+    "flightNumber": 5566,
+    "carrier": "6E",
+    "dateOfOrigin": "2024-08-04",
+    "startStation": "MIA",
+    "endStation": "BOS",
+    "scheduleStartTime": "06:00 PM",
+    "delayLimit": "25 mins",
+    "remarks": "Technical issue",
+    "total": 2,
+    "delays": [
+      {
+        "time": "06:15 PM",
+        "reason": "Technical issue",
+        "delayNumber": "D011",
+        "isRootCause": true,
+        "remark": "Fuel pump check"
+      },
+      {
+        "time": "06:30 PM",
+        "reason": "Weather",
+        "delayNumber": "D012",
+        "isRootCause": false,
+        "remark": "Heavy fog"
+      }
+    ]
+  }
+]

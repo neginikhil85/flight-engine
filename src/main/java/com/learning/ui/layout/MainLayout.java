@@ -14,8 +14,6 @@ import com.vaadin.flow.component.sidenav.SideNav;
 import com.vaadin.flow.component.sidenav.SideNavItem;
 import com.vaadin.flow.theme.lumo.LumoUtility;
 
-import java.util.Collection;
-
 public class MainLayout extends AppLayout {
 
     public MainLayout() {
@@ -52,7 +50,7 @@ public class MainLayout extends AppLayout {
 
         SideNavItem events = new SideNavItem("Events");
         events.setPrefixComponent(VaadinIcon.EXCHANGE.create());
-        events.addItem(new SideNavItem("Delay Event", "/flight-delay"));
+        events.addItem(new SideNavItem("Delay Events", "/flight-delay"));
         nav.addItem(events);
         return nav;
     }

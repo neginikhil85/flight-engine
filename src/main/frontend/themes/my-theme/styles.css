@@ -1,11 +1,15 @@
-@import 'headers.css';
-@import 'grid.css';
-@import 'fonts.css'
-@import 'cards.css';
-@import 'labeled-value.css';
+@import 'fonts.css';
+@import 'component-css/headers.css';
+@import 'component-css/grid.css';
+@import 'component-css/flight-query-layout.css';
+@import 'component-css/flight-query-form.css';
+@import 'views-css/flight-data-view.css';
 
 html {
     --vaadin-app-layout-drawer-width : 12em;
     --lumo-font-family: 'Poppins';
 }
 
+.delay-view h1 {
+    font-size: 1.4rem;
+}

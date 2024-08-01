@@ -1,0 +1,13 @@
+.data-view {
+    border: 1.2px solid #dedede;
+    border-radius: 1.4rem;
+}
+
+.data-view h1 {
+    font-size: 1rem;
+}
+
+.form-view {
+    border: 1.2px solid #dedede;
+    border-radius: 1.4rem;
+}
