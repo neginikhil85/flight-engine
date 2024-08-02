@@ -3,6 +3,7 @@
 @import 'component-css/grid.css';
 @import 'component-css/flight-query-layout.css';
 @import 'component-css/flight-query-form.css';
+@import 'component-css/dialog.css';
 @import 'views-css/flight-data-view.css';
 
 html {
