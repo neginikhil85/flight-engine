@@ -18,7 +18,7 @@ import java.util.List;
 public class DelayData extends FlightInfo {
     private String delayLimit;
     private String remarks;
-    private int total;
+    private String total;
     private List<DelayItem> delays;
     @JsonFormat(pattern = "dd-MM-yyyy hh:mm a")
     private LocalDateTime eventReceivedOn;

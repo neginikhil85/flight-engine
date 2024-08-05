@@ -5,6 +5,7 @@ import com.learning.ui.component.grid.provider.ColumnProviderFactory;
 import com.vaadin.flow.component.grid.Grid;
 import com.vaadin.flow.component.grid.GridSortOrder;
 import com.vaadin.flow.component.grid.GridVariant;
+import com.vaadin.flow.component.grid.dataview.GridListDataView;
 import com.vaadin.flow.data.provider.SortDirection;
 import com.vaadin.flow.function.ValueProvider;
 
@@ -56,7 +57,7 @@ public class CustomGrid<T> extends Grid<T> {
         }
     }
 
-    public void updateItems(Collection<T> data) {
-        super.setItems(data);
+    public GridListDataView<T> updateItems(Collection<T> data) {
+        return super.setItems(data);
     }
 }
