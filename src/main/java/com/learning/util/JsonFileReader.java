@@ -22,6 +22,8 @@ public class JsonFileReader {
             byte[] jsonData = Files.readAllBytes(Paths.get(filePath));
             return objectMapper.readValue(jsonData, type);
         } catch (Exception e) {
+
+
             return null;
         }
     }

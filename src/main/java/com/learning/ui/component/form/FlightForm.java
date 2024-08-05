@@ -29,8 +29,8 @@ public class FlightForm extends FormLayout {
 
         // Create Accordion sections
         Accordion accordion = new Accordion();
-        accordion.add("Mandatory Fields", mandatoryLayout);
-        accordion.add("Optional Fields", optionalLayout);
+        accordion.add("Mandatory", mandatoryLayout);
+        accordion.add("Optional", optionalLayout);
 
         // Add Accordion to the form
         add(accordion);

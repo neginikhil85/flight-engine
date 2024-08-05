@@ -9,5 +9,7 @@
 
 .form-view {
     border: 1.2px solid #dedede;
-    border-radius: 1.4rem;
+    border-radius: 0.5rem;
+    overflow: auto;
+    font-size: 1rem;
 }

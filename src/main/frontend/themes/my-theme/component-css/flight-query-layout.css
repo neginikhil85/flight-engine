@@ -38,7 +38,7 @@
 }
 
 .form-view {
-    flex: 2; /* 20% of space */
+    flex: 2.2; /* 20% of space */
     width: 100%; /* Ensure it takes up the full width allocated by flex property */
 }
 
@@ -48,15 +48,16 @@
 }
 
 .form-view vaadin-text-field {
-    height: 3rem; /* Adjust this value as needed */
-    width: 10rem;  /* Adjust this value as needed */
-    --lumo-text-field-size: var(--lumo-size-s); /* Optional: for size adjustments */
+    width: 13.4rem;
+    /*max-width: 14rem;*/
+    padding: 0.01rem;
+    --lumo-text-field-size: var(--lumo-size-xs);
 }
 
 .form-view-title {
     font-size: 20px;
     font-weight: bold;
     width: 100%;
-    border-bottom: 2px solid grey;
+    border-bottom: 2px solid #dedede;
 }
 

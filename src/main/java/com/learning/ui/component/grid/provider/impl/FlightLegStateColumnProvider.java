@@ -20,7 +20,6 @@ public class FlightLegStateColumnProvider implements ColumnProvider<FlightLegSta
     public Map<String, ValueProvider<FlightLegState, ?>> getHeaderAndValueProviders() {
         return new LinkedHashMap<>() {{
             put("Flight No.", FlightLegState::getFlightNumber);
-            put("Carrier", FlightLegState::getCarrier);
             put("Date Of Origin", FlightLegState::getDateOfOrigin);
             put("Start Station", FlightLegState::getStartStation);
             put("End Station", FlightLegState::getEndStation);

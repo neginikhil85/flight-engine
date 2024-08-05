@@ -5,12 +5,9 @@
 @import 'component-css/flight-query-form.css';
 @import 'component-css/dialog.css';
 @import 'views-css/flight-data-view.css';
+@import 'views-css/delay-view.css';
 
 html {
     --vaadin-app-layout-drawer-width : 12em;
     --lumo-font-family: 'Poppins';
-}
-
-.delay-view h1 {
-    font-size: 1.4rem;
 }
