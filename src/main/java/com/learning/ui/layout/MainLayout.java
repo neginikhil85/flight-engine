@@ -3,16 +3,14 @@ package com.learning.ui.layout;
 import com.vaadin.flow.component.applayout.AppLayout;
 import com.vaadin.flow.component.applayout.DrawerToggle;
 import com.vaadin.flow.component.html.H1;
-import com.vaadin.flow.component.html.H3;
+import com.vaadin.flow.component.html.H5;
 import com.vaadin.flow.component.html.Image;
 import com.vaadin.flow.component.icon.VaadinIcon;
 import com.vaadin.flow.component.orderedlayout.FlexComponent;
 import com.vaadin.flow.component.orderedlayout.HorizontalLayout;
-import com.vaadin.flow.component.orderedlayout.Scroller;
 import com.vaadin.flow.component.orderedlayout.VerticalLayout;
 import com.vaadin.flow.component.sidenav.SideNav;
 import com.vaadin.flow.component.sidenav.SideNavItem;
-import com.vaadin.flow.theme.lumo.LumoUtility;
 
 public class MainLayout extends AppLayout {
 
@@ -37,15 +35,14 @@ public class MainLayout extends AppLayout {
     }
 
     private void createDrawer() {
-        H3 categories = new H3("Categories");
-        Scroller scroller = new Scroller(new VerticalLayout(categories, getSideNav()));
-        scroller.setClassName(LumoUtility.Padding.XSMALL);
-
-        addToDrawer(scroller);
+        H5 categories = new H5("Categories");
+        addToDrawer(new VerticalLayout(categories, getSideNav()));
     }
 
     private SideNav getSideNav() {
         SideNav nav = new SideNav();
+        nav.addClassName("app-drawer");
+
         nav.addItem(new SideNavItem("Dashboard", "/dashboard", VaadinIcon.DASHBOARD.create()));
 
         nav.addItem(new SideNavItem("Flight Inquiry", "/flight-inquiry", VaadinIcon.FLIGHT_TAKEOFF.create()));

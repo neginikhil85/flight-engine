@@ -12,7 +12,7 @@ import com.vaadin.flow.component.orderedlayout.VerticalLayout;
 import com.vaadin.flow.router.Route;
 
 import java.util.List;
-@Route(value = "/equipment-view", layout = MainLayout.class)
+@Route(value = "/equipment", layout = MainLayout.class)
 public class EquipmentView extends VerticalLayout {
     public EquipmentView(ColumnProviderFactory columnProviderFactory) {
         addClassName("delay-view");
