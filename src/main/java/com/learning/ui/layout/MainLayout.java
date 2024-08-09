@@ -51,6 +51,8 @@ public class MainLayout extends AppLayout {
         SideNavItem events = new SideNavItem("Events");
         events.setPrefixComponent(VaadinIcon.EXCHANGE.create());
         events.addItem(new SideNavItem("Delay Events", "/flight-delay"));
+        events.addItem(new SideNavItem("Diversion Events", "/flight-diversion"));
+        events.addItem(new SideNavItem("Door Close", "/flight-door-close"));
         nav.addItem(events);
         return nav;
     }

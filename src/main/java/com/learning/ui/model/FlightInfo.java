@@ -16,4 +16,8 @@ public class FlightInfo {
     private String startStation;
     private String endStation;
     private String scheduleStartTime;
+    private String doorCloseTime;
+    private String divertedStation;
+    private String diversionTime;
+    private String diversionReason;
 }

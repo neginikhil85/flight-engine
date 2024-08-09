@@ -1,0 +1,47 @@
+[
+  {
+    "flightNumber": 1112,
+    "carrier": "6E",
+    "dateOfOrigin": "2024-08-01",
+    "startStation": "Ayodhya",
+    "endStation": "Delhi",
+    "scheduleStartTime": "10:00 AM",
+    "doorCloseTime": "09:50 AM"
+  },
+  {
+    "flightNumber": 2456,
+    "carrier": "6E",
+    "dateOfOrigin": "2024-08-01",
+    "startStation": "Delhi",
+    "endStation": "Katra",
+    "scheduleStartTime": "01:30 PM",
+    "doorCloseTime": "01:15 PM"
+  },
+  {
+    "flightNumber": 7890,
+    "carrier": "6E",
+    "dateOfOrigin": "2024-08-01",
+    "startStation": "Delhi",
+    "endStation": "Kedarnath",
+    "scheduleStartTime": "08:45 AM",
+    "doorCloseTime": "08:30 AM"
+  },
+  {
+    "flightNumber": 3354,
+    "carrier": "6E",
+    "dateOfOrigin": "2024-08-01",
+    "startStation": "Mumbai",
+    "endStation": "Haridwar",
+    "scheduleStartTime": "11:15 AM",
+    "doorCloseTime": "11:00 AM"
+  },
+  {
+    "flightNumber": 6745,
+    "carrier": "6E",
+    "dateOfOrigin": "2024-08-01",
+    "startStation": "Kolkata",
+    "endStation": "Mathura",
+    "scheduleStartTime": "04:00 PM",
+    "doorCloseTime": "03:45 PM"
+  }
+]

@@ -1,0 +1,62 @@
+[
+  {
+    "flightNumber": 1112,
+    "carrier": "6E",
+    "dateOfOrigin": "2024-08-01",
+    "startStation": "Delhi",
+    "endStation": "Jammu & Kashmir",
+    "scheduleStartTime": "10:00 AM",
+    "doorCloseTime": "09:50 AM",
+    "divertedStation": "Kanpur",
+    "diversionTime": "11:30 AM",
+    "diversionReason": "Weather"
+  },
+  {
+    "flightNumber": 2456,
+    "carrier": "6E",
+    "dateOfOrigin": "2024-08-01",
+    "startStation": "Mumbai",
+    "endStation": "Kaashi",
+    "scheduleStartTime": "01:30 PM",
+    "doorCloseTime": "01:15 PM",
+    "divertedStation": "Lucknow",
+    "diversionTime": "02:45 PM",
+    "diversionReason": "Technical Issue"
+  },
+  {
+    "flightNumber": 7890,
+    "carrier": "6E",
+    "dateOfOrigin": "2024-08-01",
+    "startStation": "Delhi",
+    "endStation": "Kedarnath",
+    "scheduleStartTime": "08:45 AM",
+    "doorCloseTime": "08:30 AM",
+    "divertedStation": "Haridwar",
+    "diversionTime": "10:15 AM",
+    "diversionReason": "Medical Emergency"
+  },
+  {
+    "flightNumber": 3354,
+    "carrier": "6E",
+    "dateOfOrigin": "2024-08-01",
+    "startStation": "Mumbai",
+    "endStation": "Bengaluru",
+    "scheduleStartTime": "11:15 AM",
+    "doorCloseTime": "11:00 AM",
+    "divertedStation": "Chennai",
+    "diversionTime": "12:00 PM",
+    "diversionReason": "Bird Strike"
+  },
+  {
+    "flightNumber": 6745,
+    "carrier": "6E",
+    "dateOfOrigin": "2024-08-01",
+    "startStation": "Bengaluru",
+    "endStation": "JaganathPuri",
+    "scheduleStartTime": "04:00 PM",
+    "doorCloseTime": "03:45 PM",
+    "divertedStation": "Kolkata",
+    "diversionTime": "06:15 PM",
+    "diversionReason": "Fuel Issue"
+  }
+]
