@@ -20,4 +20,5 @@ public class FlightInfo {
     private String divertedStation;
     private String diversionTime;
     private String diversionReason;
+    private String EstimatedTime;
 }

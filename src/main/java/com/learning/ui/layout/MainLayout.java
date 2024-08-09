@@ -53,6 +53,7 @@ public class MainLayout extends AppLayout {
         events.addItem(new SideNavItem("Delay Events", "/flight-delay"));
         events.addItem(new SideNavItem("Diversion Events", "/flight-diversion"));
         events.addItem(new SideNavItem("Door Close", "/flight-door-close"));
+        events.addItem(new SideNavItem("Estimated Time", "/estimated-time"));
         nav.addItem(events);
         return nav;
     }
