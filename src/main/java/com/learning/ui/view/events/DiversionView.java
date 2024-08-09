@@ -1,8 +1,9 @@
 package com.learning.ui.view.events;
 
 import com.fasterxml.jackson.core.type.TypeReference;
-import com.learning.ui.component.grid.CustomGrid;
+import com.learning.ui.component.grid. SearchableGrid;
 import com.learning.ui.component.grid.provider.ColumnProviderFactory;
+import com.learning.ui.enums.GridFilterBean;
 import com.learning.ui.layout.MainLayout;
 import com.learning.ui.model.DelayData;
 import com.learning.ui.model.DiversionData;
@@ -20,9 +21,11 @@ public class DiversionView extends VerticalLayout {
     public DiversionView(ColumnProviderFactory columnProviderFactory) {
         addClassName("delay-view");
         H1 title = new H1("Diversion Events");
-        CustomGrid<DiversionData> delayGrid = new CustomGrid<>(DiversionData.class, columnProviderFactory);
-        delayGrid.updateItems(getDiversionData());
-        add(title, delayGrid);
+        SearchableGrid<DiversionData> diversionGrid = new SearchableGrid<>(DiversionData.class, columnProviderFactory);
+        diversionGrid.updateItems(getDiversionData());
+        diversionGrid.setSearchFilters(GridFilterBean.DIVERSION_DATA.getBean());
+        add(title, diversionGrid);
+        
 
     }
 
