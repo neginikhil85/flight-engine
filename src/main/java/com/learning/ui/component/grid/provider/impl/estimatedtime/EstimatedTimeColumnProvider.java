@@ -25,7 +25,7 @@ public class EstimatedTimeColumnProvider implements ColumnProvider<EstimatedTime
             put("Start Station", EstimatedTime::getStartStation);
             put("End Station", EstimatedTime::getEndStation);
             put("Schedule Start Time", EstimatedTime::getScheduleStartTime);
-            put("Door Close Time", EstimatedTime::getEstimatedTime);
+            put("Estimated door close time",EstimatedTime::getEstimatedTime);
         }};
     }
 }

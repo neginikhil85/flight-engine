@@ -6,7 +6,7 @@
     "startStation": "Ayodhya",
     "endStation": "Delhi",
     "scheduleStartTime": "10:00 AM",
-    "doorCloseTime": "10:00 AM"
+    "actualTime": "09:55 AM"
   },
   {
     "flightNumber": 2456,
@@ -15,7 +15,7 @@
     "startStation": "Delhi",
     "endStation": "Katra",
     "scheduleStartTime": "01:30 PM",
-    "doorCloseTime": "01:15 PM"
+    "actualTime": "01:25 PM"
   },
   {
     "flightNumber": 7890,
@@ -24,7 +24,7 @@
     "startStation": "Delhi",
     "endStation": "Kedarnath",
     "scheduleStartTime": "08:45 AM",
-    "doorCloseTime": "09:30 AM"
+    "actualTime": "08:40 AM"
   },
   {
     "flightNumber": 3354,
@@ -33,7 +33,7 @@
     "startStation": "Mumbai",
     "endStation": "Haridwar",
     "scheduleStartTime": "11:15 AM",
-    "doorCloseTime": "11:00 AM"
+    "actualTime": "11:10 AM"
   },
   {
     "flightNumber": 6745,
@@ -42,6 +42,6 @@
     "startStation": "Kolkata",
     "endStation": "Mathura",
     "scheduleStartTime": "04:00 PM",
-    "doorCloseTime": "03:40 PM"
+    "actualTime": "03:30 PM"
   }
 ]

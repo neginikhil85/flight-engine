@@ -54,6 +54,19 @@ public class MainLayout extends AppLayout {
         events.addItem(new SideNavItem("Diversion Events", "/flight-diversion"));
         events.addItem(new SideNavItem("Door Close", "/flight-door-close"));
         events.addItem(new SideNavItem("Estimated Time", "/estimated-time"));
+        events.addItem(new SideNavItem("Actual Time", "/actual-time"));
+        events.addItem(new SideNavItem("Equipment", "/equipment"));
+        events.addItem(new SideNavItem("Flight Cancel", "/flight-cancel"));
+        events.addItem(new SideNavItem("Flight Return", "/flight-return"));
+        events.addItem(new SideNavItem("Flight Delete", "/flight-delete"));
+        events.addItem(new SideNavItem("Terminal", "/terminal"));
+        events.addItem(new SideNavItem("Operation Status", "/operation-status"));
+        events.addItem(new SideNavItem("Gate Change", "/gate-change"));
+        events.addItem(new SideNavItem("In Block Time", "/in-block-time"));
+        events.addItem(new SideNavItem("Off Block Time", "/off-block-time"));
+        events.addItem(new SideNavItem("Landing Time", "/landing-time"));
+        events.addItem(new SideNavItem("Take Off Time", "/take-off-time"));
+
         nav.addItem(events);
         return nav;
     }
