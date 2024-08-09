@@ -51,7 +51,7 @@ public class DelayDataColumnProvider implements ColumnProvider<DelayData> {
     @Override
     public List<CustomColumn<DelayData>> getCustomColumns(ColumnProviderFactory factory) {
         return List.of(
-                new CustomColumn<>("Show Delays", new ComponentRenderer<>(item -> {
+                new CustomColumn<>("Delays", new ComponentRenderer<>(item -> {
                     Button viewBtn = new Button("view");
                     viewBtn.setIcon(VaadinIcon.EYE.create());
                     viewBtn.addClassNames("compact-button");

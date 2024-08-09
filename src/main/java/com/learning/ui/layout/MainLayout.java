@@ -56,4 +56,5 @@ public class MainLayout extends AppLayout {
         nav.addItem(events);
         return nav;
     }
+
 }

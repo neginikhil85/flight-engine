@@ -36,11 +36,7 @@ public class CustomGrid<T> extends Grid<T> {
 
         // Add custom columns if provided
         List<ColumnProvider.CustomColumn<T>> customColumns = columnProvider.getCustomColumns(columnProviderFactory);
-        customColumns.forEach(customColumn -> {
-            addColumn(customColumn.getRenderer())
-                    .setHeader(customColumn.getHeader())
-                    .setAutoWidth(true);
-        });
+        customColumns.forEach(this::addColumns);
 
         // Common setup for all grids
         addThemeVariants(GridVariant.LUMO_COMPACT);
@@ -54,10 +50,18 @@ public class CustomGrid<T> extends Grid<T> {
 
         if (header.equals("Event Received On")) {
             this.sort(List.of(new GridSortOrder<>(column, SortDirection.DESCENDING)));
+            column.setVisible(false); // comment this if you need to show the column
         }
+    }
+
+    private void addColumns(ColumnProvider.CustomColumn<T> customColumn) {
+        addColumn(customColumn.getRenderer())
+                .setHeader(customColumn.getHeader())
+                .setAutoWidth(true);
     }
 
     public GridListDataView<T> updateItems(Collection<T> data) {
         return super.setItems(data);
     }
+
 }

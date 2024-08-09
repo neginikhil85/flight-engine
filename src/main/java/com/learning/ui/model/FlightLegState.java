@@ -9,11 +9,11 @@ import lombok.experimental.SuperBuilder;
 @AllArgsConstructor
 @NoArgsConstructor
 public class FlightLegState extends FlightInfo {
+    private String startTerminal;
+    private String endTerminal;
     private String operationalStatus;
     private String flightStatus;
     private String cancellationCode;
-    private String startTerminal;
-    private String endTerminal;
     private String startGate;
     private String endGate;
     private String startStand;

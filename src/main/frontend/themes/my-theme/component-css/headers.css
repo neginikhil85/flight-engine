@@ -19,3 +19,10 @@
     font-size: 1.3rem;
     color: white;
 }
+
+/* Media query for smaller screens */
+@media (max-width: 600px) {
+    .app-header h1 {
+        font-size: 1rem; /* Adjust the font size for smaller screens */
+    }
+}
