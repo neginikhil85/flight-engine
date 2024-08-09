@@ -1,0 +1,12 @@
+# framework defined properties
+spring:
+    application:
+        name: flight-engine
+
+vaadin:
+    whitelisted-packages: com.vaadin,org.vaadin,com.github.appreciated.apexcharts
+
+
+# user defined properties
+grid-column-provider:
+    date-format: 'dd-MM-yyyy hh:mm a'

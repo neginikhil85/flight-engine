@@ -12,13 +12,11 @@
 }
 
 .custom-grid .compact-button {
-    font-size: 12px;
+    font-size: 0.8rem;
     background-color: #4c4cb7;
     color: white;
-}
-
-.custom-grid .compact-row {
-    height: 30px; /* Adjust height as needed */
+    border: 1px solid black;
+    height: 1.6rem;
 }
 
 .custom-dialog {
@@ -26,13 +24,31 @@
     flex-direction: column;
     max-width: 90vw; /* Max width as a percentage of viewport width */
     max-height: 90vh; /* Max height as a percentage of viewport height */
+}
 
+.custom-grid vaadin-grid-sorter::part(content) {
+    color: white;
+}
+
+.custom-grid vaadin-grid-sorter::part(indicators) {
+    display: none;
+    /*color: white;*/
 }
 
 /* Ensure the grid expands to fit the dialog */
 .nested-custom-grid {
     min-width: 6in;
     max-height: 2in;
+}
+
+.searchable-grid {
+    padding: 0.25rem;
+}
+
+.searchable-grid vaadin-text-field {
+    width: 12rem;
+    padding: 0.01rem;
+    --lumo-text-field-size: var(--lumo-size-s);
 }
 
 

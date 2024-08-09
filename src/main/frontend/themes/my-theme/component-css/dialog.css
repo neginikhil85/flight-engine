@@ -1,3 +1,6 @@
+.custom-dialog::part(content) {
+    padding: 1rem;
+}
 
 .dialog-header {
     display: flex;
@@ -6,7 +9,7 @@
 
 .dialog-title {
     font-size: 1rem;
-    font-weight: 500;
+    font-weight: 530;
 }
 
 .dialog-close-btn {

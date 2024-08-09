@@ -4,7 +4,7 @@ import lombok.Getter;
 
 @Getter
 public enum FlightDataFields {
-    FLIGHT_NUMBER("FLIGHT NUMBER"),
+    FLIGHT_NUMBER("Flight Number"),
     CARRIER("CARRIER"),
     DATE_OF_ORIGIN("DATE OF ORIGIN"),
     START_STATION("START STATION"),

@@ -17,6 +17,7 @@ public class DelayDialog extends Dialog {
 
     public DelayDialog(List<DelayData.DelayItem> delayItems, ColumnProviderFactory factory) {
         setDraggable(true);
+        addClassName("custom-dialog");
 
         Div headerTitle = new Div();
         headerTitle.setText("Delays");

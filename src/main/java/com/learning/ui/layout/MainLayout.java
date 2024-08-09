@@ -46,6 +46,8 @@ public class MainLayout extends AppLayout {
 
     private SideNav getSideNav() {
         SideNav nav = new SideNav();
+        nav.addItem(new SideNavItem("Dashboard", "/dashboard", VaadinIcon.DASHBOARD.create()));
+
         nav.addItem(new SideNavItem("Flight Inquiry", "/flight-inquiry", VaadinIcon.FLIGHT_TAKEOFF.create()));
 
         SideNavItem events = new SideNavItem("Events");
@@ -70,4 +72,5 @@ public class MainLayout extends AppLayout {
         nav.addItem(events);
         return nav;
     }
+
 }
