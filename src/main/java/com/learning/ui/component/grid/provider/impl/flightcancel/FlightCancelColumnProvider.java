@@ -23,7 +23,6 @@ public class FlightCancelColumnProvider implements ColumnProvider<FlightCancel> 
             put("Start Station", FlightCancel::getStartStation);
             put("End Station", FlightCancel::getEndStation);
             put("Schedule Start Time", FlightCancel::getScheduleStartTime);
-            put("Flight Cancel",FlightCancel::getFlightCancel);
         }};
     }
 }

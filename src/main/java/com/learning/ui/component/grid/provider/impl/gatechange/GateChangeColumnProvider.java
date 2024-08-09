@@ -24,7 +24,6 @@ public class GateChangeColumnProvider implements ColumnProvider<GateChange> {
             put("Start Station", GateChange::getStartStation);
             put("End Station", GateChange::getEndStation);
             put("Schedule Start Time", GateChange::getScheduleStartTime);
-            put("Gate change",GateChange::getGateChange);
         }};
     }
 }

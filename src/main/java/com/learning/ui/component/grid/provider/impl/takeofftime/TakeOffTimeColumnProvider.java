@@ -24,7 +24,6 @@ public class TakeOffTimeColumnProvider implements ColumnProvider<TakeOffTime> {
             put("Start Station", TakeOffTime::getStartStation);
             put("End Station", TakeOffTime::getEndStation);
             put("Schedule Start Time", TakeOffTime::getScheduleStartTime);
-            put("Estimated door close time",TakeOffTime::getTakeOffTime);
         }};
     }
 }

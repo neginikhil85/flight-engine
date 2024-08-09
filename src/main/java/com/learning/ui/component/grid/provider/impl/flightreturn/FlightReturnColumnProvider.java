@@ -24,7 +24,6 @@ public class FlightReturnColumnProvider implements ColumnProvider<FlightReturn> 
             put("Start Station", FlightReturn::getStartStation);
             put("End Station", FlightReturn::getEndStation);
             put("Schedule Start Time", FlightReturn::getScheduleStartTime);
-            put("Flight Return Time",FlightReturn::getFlightReturn);
         }};
     }
 }

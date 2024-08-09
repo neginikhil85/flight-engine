@@ -16,23 +16,4 @@ public class FlightInfo {
     private String startStation;
     private String endStation;
     private String scheduleStartTime;
-    private String doorCloseTime;
-    private String divertedStation;
-    private String diversionTime;
-    private String diversionReason;
-    private String EstimatedTime;
-    private String ActualTime;
-    private String Equipment;
-    private String FlightCancel;
-    private String FlightReturn;
-    private String FlightDelete;
-    private String Terminal;
-    private String OperationStatus;
-    private String GateChange;
-    private String InBlockTime;
-    private String OffBlockTime;
-    private String LandingTime;
-    private String TakeOffTime;
-
-
 }

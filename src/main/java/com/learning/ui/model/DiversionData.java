@@ -9,5 +9,11 @@ import lombok.experimental.SuperBuilder;
 @SuperBuilder
 //@AllArgsConstructor
 @NoArgsConstructor
-public class DiversionData extends FlightInfo{
+public class DiversionData extends FlightInfo {
+    private String flightStatus;
+    private String effectiveArrivalStation;
+    private String diversionCode;
+    private String estimatedInBlock;
+    private String registration;
+    private FlightContinuationData continuationLeg;
 }

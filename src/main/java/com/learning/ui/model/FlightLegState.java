@@ -21,4 +21,5 @@ public class FlightLegState extends FlightInfo {
     private String startTimeOffset;
     private String endTimeOffset;
     private HandlingData handlingData;
+    private FlightContinuationData continuationLeg;
 }

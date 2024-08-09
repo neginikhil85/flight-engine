@@ -23,7 +23,6 @@ public class DoorCloseColumnProvider implements ColumnProvider<DoorClose> {
             put("Start Station", DoorClose::getStartStation);
             put("End Station", DoorClose::getEndStation);
             put("Schedule Start Time", DoorClose::getScheduleStartTime);
-            put("Door Close Time", DoorClose::getDoorCloseTime);
         }};
     }
 }

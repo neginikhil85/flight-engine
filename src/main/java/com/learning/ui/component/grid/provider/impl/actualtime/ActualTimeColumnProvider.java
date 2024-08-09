@@ -23,7 +23,6 @@ public class ActualTimeColumnProvider implements ColumnProvider<ActualTime> {
             put("Start Station", ActualTime::getStartStation);
             put("End Station", ActualTime::getEndStation);
             put("Schedule Start Time", ActualTime::getScheduleStartTime);
-            put("Actual door close time",ActualTime::getActualTime);
         }};
     }
 }

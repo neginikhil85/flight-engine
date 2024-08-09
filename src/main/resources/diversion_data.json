@@ -6,10 +6,24 @@
     "startStation": "Delhi",
     "endStation": "Jammu & Kashmir",
     "scheduleStartTime": "10:00 AM",
-    "doorCloseTime": "09:50 AM",
-    "divertedStation": "Kanpur",
-    "diversionTime": "11:30 AM",
-    "diversionReason": "Weather"
+    "flightStatus": "Diverted",
+    "effectiveArrivalStation": "Kanpur",
+    "diversionCode": "Weather",
+    "estimatedInBlock": "11:30 AM",
+    "registration": "VT-1234",
+    "continuationLeg": {
+      "flightNumber": 1113,
+      "carrier": "6E",
+      "dateOfOrigin": "2024-08-01",
+      "startStation": "Kanpur",
+      "endStation": "Jammu & Kashmir",
+      "scheduleStartTime": "12:00 PM",
+      "suffix": "A",
+      "scheduledEndTime": "02:00 PM",
+      "startTimeOffset": "00:15",
+      "endTimeOffset": "00:15",
+      "seqNumber": "001"
+    }
   },
   {
     "flightNumber": 2456,
@@ -18,10 +32,24 @@
     "startStation": "Mumbai",
     "endStation": "Kaashi",
     "scheduleStartTime": "01:30 PM",
-    "doorCloseTime": "01:15 PM",
-    "divertedStation": "Lucknow",
-    "diversionTime": "02:45 PM",
-    "diversionReason": "Technical Issue"
+    "flightStatus": "Diverted",
+    "effectiveArrivalStation": "Lucknow",
+    "diversionCode": "Technical Issue",
+    "estimatedInBlock": "02:45 PM",
+    "registration": "VT-5678",
+    "continuationLeg": {
+      "flightNumber": 2457,
+      "carrier": "6E",
+      "dateOfOrigin": "2024-08-01",
+      "startStation": "Lucknow",
+      "endStation": "Kaashi",
+      "scheduleStartTime": "03:15 PM",
+      "suffix": "B",
+      "scheduledEndTime": "04:45 PM",
+      "startTimeOffset": "00:15",
+      "endTimeOffset": "00:15",
+      "seqNumber": "002"
+    }
   },
   {
     "flightNumber": 7890,
@@ -30,10 +58,24 @@
     "startStation": "Delhi",
     "endStation": "Kedarnath",
     "scheduleStartTime": "08:45 AM",
-    "doorCloseTime": "08:30 AM",
-    "divertedStation": "Haridwar",
-    "diversionTime": "10:15 AM",
-    "diversionReason": "Medical Emergency"
+    "flightStatus": "Diverted",
+    "effectiveArrivalStation": "Haridwar",
+    "diversionCode": "Medical Emergency",
+    "estimatedInBlock": "10:15 AM",
+    "registration": "VT-9101",
+    "continuationLeg": {
+      "flightNumber": 7891,
+      "carrier": "6E",
+      "dateOfOrigin": "2024-08-01",
+      "startStation": "Haridwar",
+      "endStation": "Kedarnath",
+      "scheduleStartTime": "11:00 AM",
+      "suffix": "C",
+      "scheduledEndTime": "12:30 PM",
+      "startTimeOffset": "00:15",
+      "endTimeOffset": "00:15",
+      "seqNumber": "003"
+    }
   },
   {
     "flightNumber": 3354,
@@ -42,10 +84,24 @@
     "startStation": "Mumbai",
     "endStation": "Bengaluru",
     "scheduleStartTime": "11:15 AM",
-    "doorCloseTime": "11:00 AM",
-    "divertedStation": "Chennai",
-    "diversionTime": "12:00 PM",
-    "diversionReason": "Bird Strike"
+    "flightStatus": "Diverted",
+    "effectiveArrivalStation": "Chennai",
+    "diversionCode": "Bird Strike",
+    "estimatedInBlock": "12:00 PM",
+    "registration": "VT-2234",
+    "continuationLeg": {
+      "flightNumber": 3355,
+      "carrier": "6E",
+      "dateOfOrigin": "2024-08-01",
+      "startStation": "Chennai",
+      "endStation": "Bengaluru",
+      "scheduleStartTime": "01:00 PM",
+      "suffix": "D",
+      "scheduledEndTime": "02:15 PM",
+      "startTimeOffset": "00:30",
+      "endTimeOffset": "00:15",
+      "seqNumber": "004"
+    }
   },
   {
     "flightNumber": 6745,
@@ -54,9 +110,23 @@
     "startStation": "Bengaluru",
     "endStation": "JaganathPuri",
     "scheduleStartTime": "04:00 PM",
-    "doorCloseTime": "03:45 PM",
-    "divertedStation": "Kolkata",
-    "diversionTime": "06:15 PM",
-    "diversionReason": "Fuel Issue"
+    "flightStatus": "Diverted",
+    "effectiveArrivalStation": "Kolkata",
+    "diversionCode": "Fuel Issue",
+    "estimatedInBlock": "06:15 PM",
+    "registration": "VT-7789",
+    "continuationLeg": {
+      "flightNumber": 6746,
+      "carrier": "6E",
+      "dateOfOrigin": "2024-08-01",
+      "startStation": "Kolkata",
+      "endStation": "JaganathPuri",
+      "scheduleStartTime": "07:00 PM",
+      "suffix": "E",
+      "scheduledEndTime": "08:45 PM",
+      "startTimeOffset": "00:15",
+      "endTimeOffset": "00:15",
+      "seqNumber": "005"
+    }
   }
 ]

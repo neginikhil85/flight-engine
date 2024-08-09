@@ -24,7 +24,6 @@ public class FlightDeleteColumnProvider implements ColumnProvider<FlightDelete> 
             put("Start Station", FlightDelete::getStartStation);
             put("End Station", FlightDelete::getEndStation);
             put("Schedule Start Time", FlightDelete::getScheduleStartTime);
-            put("Flight Delete",FlightDelete::getFlightDelete);
         }};
     }
 }

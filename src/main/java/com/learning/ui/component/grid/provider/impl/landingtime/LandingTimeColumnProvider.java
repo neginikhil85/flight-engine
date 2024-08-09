@@ -24,7 +24,6 @@ public class LandingTimeColumnProvider implements ColumnProvider<LandingTime> {
             put("Start Station",LandingTime::getStartStation);
             put("End Station",LandingTime::getEndStation);
             put("Schedule Start Time",LandingTime::getScheduleStartTime);
-            put("Landing Time",LandingTime::getLandingTime);
         }};
     }
 }

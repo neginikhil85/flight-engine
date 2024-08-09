@@ -9,5 +9,6 @@ import lombok.experimental.SuperBuilder;
 @Data
 @SuperBuilder
 @NoArgsConstructor
-public class Equipment extends FlightInfo{
+public class Equipment extends FlightInfo {
+
 }

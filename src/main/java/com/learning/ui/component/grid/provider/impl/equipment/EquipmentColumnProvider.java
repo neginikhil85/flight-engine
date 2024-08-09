@@ -24,7 +24,6 @@ public class EquipmentColumnProvider implements ColumnProvider<Equipment> {
             put("Start Station", Equipment::getStartStation);
             put("End Station", Equipment::getEndStation);
             put("Schedule Start Time", Equipment::getScheduleStartTime);
-            put("Estimated door close time", Equipment::getEquipment);
         }};
     }
 }

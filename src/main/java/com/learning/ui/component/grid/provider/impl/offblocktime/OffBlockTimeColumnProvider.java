@@ -25,7 +25,6 @@ public class OffBlockTimeColumnProvider implements ColumnProvider<OffBlockTime> 
             put("Start Station", OffBlockTime::getStartStation);
             put("End Station", OffBlockTime::getEndStation);
             put("Schedule Start Time", OffBlockTime::getScheduleStartTime);
-            put("Estimated door close time",OffBlockTime::getOffBlockTime);
         }};
     }
 }

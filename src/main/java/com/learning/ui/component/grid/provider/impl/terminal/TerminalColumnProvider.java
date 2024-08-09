@@ -24,7 +24,6 @@ public class TerminalColumnProvider implements ColumnProvider<Terminal> {
             put("Start Station", Terminal::getStartStation);
             put("End Station", Terminal::getEndStation);
             put("Schedule Start Time", Terminal::getScheduleStartTime);
-            put("Estimated door close time",Terminal::getTerminal);
         }};
     }
 }

@@ -18,15 +18,25 @@ public class DiversionColumnProvider implements ColumnProvider<DiversionData> {
     public Map<String, ValueProvider<DiversionData, ?>> getHeaderAndValueProviders() {
         return new LinkedHashMap<>() {{
             put("Flight No.", DiversionData::getFlightNumber);
-            put("Carrier", DiversionData::getCarrier);
             put("Date Of Origin", DiversionData::getDateOfOrigin);
             put("Start Station", DiversionData::getStartStation);
             put("End Station", DiversionData::getEndStation);
             put("Schedule Start Time", DiversionData::getScheduleStartTime);
-            put("diverted Station Name", DiversionData::getDivertedStation);
-            put("diversion Time", DiversionData::getDiversionTime);
-            put("diversion Reason", DiversionData::getDiversionReason);
-
+            put("Flight Status", DiversionData::getFlightStatus);
+            put("Effective Arrival Station", DiversionData::getEffectiveArrivalStation);
+            put("Diversion Reason", DiversionData::getDiversionCode);
+            put("Estimated In Block", DiversionData::getEstimatedInBlock);
+            put("Registration", DiversionData::getRegistration);
+            put("Continuation Flight No.", diversionData -> diversionData.getContinuationLeg().getFlightNumber());
+            put("Continuation Date Of Origin", diversionData -> diversionData.getContinuationLeg().getDateOfOrigin());
+            put("Continuation Start Station", diversionData -> diversionData.getContinuationLeg().getStartStation());
+            put("Continuation end Station", diversionData -> diversionData.getContinuationLeg().getEndStation());
+            put("Continuation Schedule Start Time", diversionData -> diversionData.getContinuationLeg().getScheduleStartTime());
+            put("Continuation suffix", diversionData -> diversionData.getContinuationLeg().getSuffix());
+            put("Continuation scheduled End Time", diversionData -> diversionData.getContinuationLeg().getScheduledEndTime());
+            put("Continuation Start Time Offset", diversionData -> diversionData.getContinuationLeg().getStartTimeOffset());
+            put("Continuation End Time Offset", diversionData -> diversionData.getContinuationLeg().getEndTimeOffset());
+            put("Continuation Seq No.", diversionData -> diversionData.getContinuationLeg().getSeqNumber());
         }};
     }
 }

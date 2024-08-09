@@ -9,5 +9,7 @@ import lombok.experimental.SuperBuilder;
 @Data
 @SuperBuilder
 @NoArgsConstructor
-public class DoorClose extends FlightInfo{
+public class DoorClose extends FlightInfo {
+    private ActualTime currentActualTimes;
+    private ActualTime previousActualTimes;
 }

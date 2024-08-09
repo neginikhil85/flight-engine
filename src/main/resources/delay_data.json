@@ -9,7 +9,7 @@
     "delayLimit": "30 mins",
     "remarks": "Weather delay",
     "total": "2",
-    "eventReceivedOn": "09-08-2024 02:32 PM",
+    "eventReceivedOn": "30-07-2024 10:00 am",
     "delays": [
       {
         "time": "10:15 AM",
@@ -37,7 +37,7 @@
     "delayLimit": "45 mins",
     "remarks": "Technical issue",
     "total": "3",
-    "eventReceivedOn": "09-08-2024 02:32 PM",
+    "eventReceivedOn": "30-07-2024 10:05 am",
     "delays": [
       {
         "time": "12:15 PM",
@@ -72,7 +72,7 @@
     "delayLimit": "20 mins",
     "remarks": "Operational delay",
     "total": "1",
-    "eventReceivedOn": "09-08-2024 02:32 PM",
+    "eventReceivedOn": "30-07-2024 10:10 am",
     "delays": [
       {
         "time": "02:10 PM",
@@ -93,7 +93,7 @@
     "delayLimit": "60 mins",
     "remarks": "Multiple issues",
     "total": "4",
-    "eventReceivedOn": "09-08-2024 02:32 PM",
+    "eventReceivedOn": "30-07-2024 10:20 am",
     "delays": [
       {
         "time": "04:10 PM",
@@ -135,7 +135,7 @@
     "delayLimit": "25 mins",
     "remarks": "Technical issue",
     "total": "2",
-    "eventReceivedOn": "09-08-2024 02:32 PM",
+    "eventReceivedOn": "30-07-2024 10:30 am",
     "delays": [
       {
         "time": "06:15 PM",

@@ -24,7 +24,6 @@ public class OperationStatusColumnProvider implements ColumnProvider<OperationSt
             put("Start Station", OperationStatus::getStartStation);
             put("End Station", OperationStatus::getEndStation);
             put("Schedule Start Time", OperationStatus::getScheduleStartTime);
-            put("Estimated door close time",OperationStatus::getOperationStatus);
         }};
     }
 }

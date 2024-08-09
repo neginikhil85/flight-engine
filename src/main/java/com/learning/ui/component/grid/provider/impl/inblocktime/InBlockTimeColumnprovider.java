@@ -24,7 +24,6 @@ public class InBlockTimeColumnprovider implements ColumnProvider<InBlockTime> {
             put("Start Station", InBlockTime::getStartStation);
             put("End Station", InBlockTime::getEndStation);
             put("Schedule Start Time", InBlockTime::getScheduleStartTime);
-            put("Estimated door close time",InBlockTime::getInBlockTime);
         }};
     }
 }
