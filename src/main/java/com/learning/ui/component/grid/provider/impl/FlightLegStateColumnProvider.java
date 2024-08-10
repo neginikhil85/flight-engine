@@ -35,10 +35,10 @@ public class FlightLegStateColumnProvider implements ColumnProvider<FlightLegSta
             put("End Stand", FlightLegState::getEndStand);
             put("StartTime Offset", FlightLegState::getStartTimeOffset);
             put("EndTime Offset", FlightLegState::getEndTimeOffset);
-            put("Service Type", flightLegState -> flightLegState.getHandlingData().getServiceType());
-            put("Aircraft Owner", flightLegState -> flightLegState.getHandlingData().getAircraftOwner());
-            put("Cabin Employer", flightLegState -> flightLegState.getHandlingData().getCabinEmployer());
-            put("Cockpit Employer", flightLegState -> flightLegState.getHandlingData().getCockpitEmployer());
+            put("Service Type", safeValueProvider(flightLegState -> flightLegState.getHandlingData().getServiceType()));
+            put("Aircraft Owner", safeValueProvider(flightLegState -> flightLegState.getHandlingData().getAircraftOwner()));
+            put("Cabin Employer", safeValueProvider(flightLegState -> flightLegState.getHandlingData().getCabinEmployer()));
+            put("Cockpit Employer", safeValueProvider(flightLegState -> flightLegState.getHandlingData().getCockpitEmployer()));
         }};
     }
 }
