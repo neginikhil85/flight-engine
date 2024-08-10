@@ -11,5 +11,9 @@ import lombok.experimental.SuperBuilder;
 @SuperBuilder
 @NoArgsConstructor
 public class ActualTime extends FlightInfoDto {
+    private InBlockTime inBlockTime;
+    private OffBlockTime offBlockTime;
+    private TakeOffTime takeOffTime;
+    private LandingTime landingTime;
 
 }

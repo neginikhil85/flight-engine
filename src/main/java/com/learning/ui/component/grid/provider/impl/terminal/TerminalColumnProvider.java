@@ -18,7 +18,7 @@ public class TerminalColumnProvider implements ColumnProvider<Terminal> {
     public Map<String, ValueProvider<Terminal, ?>> getHeaderAndValueProviders() {
         return  new LinkedHashMap<>() {{
             put("Flight No.", Terminal::getFlightNumber);
-            put("Carrier", Terminal::getCarrier);
+           // put("Carrier", Terminal::getCarrier);
             put("Date Of Origin", Terminal::getDateOfOrigin);
             put("Start Station", Terminal::getStartStation);
             put("End Station", Terminal::getEndStation);

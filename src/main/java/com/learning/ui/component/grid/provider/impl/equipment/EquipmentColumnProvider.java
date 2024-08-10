@@ -18,7 +18,7 @@ public class EquipmentColumnProvider implements ColumnProvider<Equipment> {
     public Map<String, ValueProvider<Equipment, ?>> getHeaderAndValueProviders() {
         return new LinkedHashMap<>() {{
             put("Flight No.", Equipment::getFlightNumber);
-            put("Carrier", Equipment::getCarrier);
+       //     put("Carrier", Equipment::getCarrier);
             put("Date Of Origin", Equipment::getDateOfOrigin);
             put("Start Station", Equipment::getStartStation);
             put("End Station", Equipment::getEndStation);

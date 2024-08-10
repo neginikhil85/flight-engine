@@ -1,8 +1,9 @@
 package com.learning.ui.view.events;
 
 import com.fasterxml.jackson.core.type.TypeReference;
-import com.learning.ui.component.grid.CustomGrid;
+import com.learning.ui.component.grid.SearchableGrid;
 import com.learning.ui.component.grid.provider.ColumnProviderFactory;
+import com.learning.ui.enums.GridFilterBean;
 import com.learning.ui.layout.MainLayout;
 import com.learning.ui.model.grid.Terminal;
 import com.learning.util.JsonFileReader;
@@ -16,9 +17,11 @@ public class TerminalView extends VerticalLayout {
     public TerminalView(ColumnProviderFactory columnProviderFactory) {
         addClassName("delay-view");
         H1 title = new H1("Terminal");
-        CustomGrid<Terminal> delayGrid = new CustomGrid<>(Terminal.class, columnProviderFactory);
-        delayGrid.updateItems(getTerminalData());
-        add(title, delayGrid);
+        SearchableGrid<Terminal> terminalGrid = new SearchableGrid<>(Terminal.class, columnProviderFactory);
+        terminalGrid.updateItems(getTerminalData());
+        terminalGrid.setSearchFilters(GridFilterBean.TERMINAL.getBean());
+
+        add(title, terminalGrid);
 
     }
 

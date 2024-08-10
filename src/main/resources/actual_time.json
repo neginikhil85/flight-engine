@@ -5,8 +5,27 @@
     "dateOfOrigin": "2024-08-01",
     "startStation": "Ayodhya",
     "endStation": "Delhi",
-    "scheduledStartTime": "2024-08-01 10:00 am",
-    "actualTime": "09:55 AM"
+    "scheduledStartTime": "2024-08-01 10:00 AM",
+    "inBlockTime": {
+      "currentInBlock": "2024-08-01 12:15 PM",
+      "previousInBlock": "2024-08-01 12:10 PM",
+      "timeType": "ACTUAL"
+    },
+    "offBlockTime": {
+      "currentOffBlock": "2024-08-01 12:30 PM",
+      "previousOffBlock": "2024-08-01 01:40 PM",
+      "timeType": "ACTUAL"
+    },
+    "takeOffTime": {
+      "currentTakeOffTime": "2024-08-01 10:30 AM",
+      "previousTakeOffTime": "2024-08-01 10:25 AM",
+      "timeType": "ACTUAL"
+    },
+    "landingTime": {
+      "currentLandingTime": "2024-08-01 12:05 PM",
+      "previousLandingTime": "2024-08-01 12:00 PM",
+      "timeType": "ACTUAL"
+    }
   },
   {
     "flightNumber": 2456,
@@ -14,8 +33,17 @@
     "dateOfOrigin": "2024-08-01",
     "startStation": "Delhi",
     "endStation": "Katra",
-    "scheduledStartTime": "2024-08-01 01:30 pm",
-    "actualTime": "01:25 PM"
+    "scheduledStartTime": "2024-08-01 01:30 PM",
+    "offBlockTime": {
+      "currentOffBlock": "2024-08-01 01:45 PM",
+      "previousOffBlock": "2024-08-01 01:40 PM",
+      "timeType": "ACTUAL"
+    },
+    "landingTime": {
+      "currentLandingTime": "2024-08-01 03:05 PM",
+      "previousLandingTime": "2024-08-01 03:00 PM",
+      "timeType": "ACTUAL"
+    }
   },
   {
     "flightNumber": 7890,
@@ -23,8 +51,17 @@
     "dateOfOrigin": "2024-08-01",
     "startStation": "Delhi",
     "endStation": "Kedarnath",
-    "scheduledStartTime": "2024-08-01 08:45 am",
-    "actualTime": "08:40 AM"
+    "scheduledStartTime": "2024-08-01 08:45 AM",
+    "inBlockTime": {
+      "currentInBlock": "2024-08-01 10:30 AM",
+      "previousInBlock": "2024-08-01 10:25 AM",
+      "timeType": "ACTUAL"
+    },
+    "takeOffTime": {
+      "currentTakeOffTime": "2024-08-01 09:15 AM",
+      "previousTakeOffTime": "2024-08-01 09:10 AM",
+      "timeType": "ACTUAL"
+    }
   },
   {
     "flightNumber": 3354,
@@ -32,8 +69,17 @@
     "dateOfOrigin": "2024-08-01",
     "startStation": "Mumbai",
     "endStation": "Haridwar",
-    "scheduledStartTime": "2024-08-01 11:15 am",
-    "actualTime": "11:10 AM"
+    "scheduledStartTime": "2024-08-01 11:15 AM",
+    "offBlockTime": {
+      "currentOffBlock": "2024-08-01 11:30 AM",
+      "previousOffBlock": "2024-08-01 11:25 AM",
+      "timeType": "ACTUAL"
+    },
+    "landingTime": {
+      "currentLandingTime": "2024-08-01 01:35 PM",
+      "previousLandingTime": "2024-08-01 01:30 PM",
+      "timeType": "ACTUAL"
+    }
   },
   {
     "flightNumber": 6745,
@@ -41,7 +87,16 @@
     "dateOfOrigin": "2024-08-01",
     "startStation": "Kolkata",
     "endStation": "Mathura",
-    "scheduledStartTime": "2024-08-01 04:00 pm",
-    "actualTime": "03:30 PM"
+    "scheduledStartTime": "2024-08-01 04:00 PM",
+    "takeOffTime": {
+      "currentTakeOffTime": "2024-08-01 04:30 PM",
+      "previousTakeOffTime": "2024-08-01 04:25 PM",
+      "timeType": "ACTUAL"
+    },
+    "inBlockTime": {
+      "currentInBlock": "2024-08-01 06:30 PM",
+      "previousInBlock": "2024-08-01 06:25 PM",
+      "timeType": "ACTUAL"
+    }
   }
 ]

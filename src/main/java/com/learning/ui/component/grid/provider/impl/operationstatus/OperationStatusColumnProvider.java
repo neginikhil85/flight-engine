@@ -18,7 +18,7 @@ public class OperationStatusColumnProvider implements ColumnProvider<OperationSt
     public Map<String, ValueProvider<OperationStatus, ?>> getHeaderAndValueProviders() {
         return  new LinkedHashMap<>() {{
             put("Flight No.", OperationStatus::getFlightNumber);
-            put("Carrier", OperationStatus::getCarrier);
+           // put("Carrier", OperationStatus::getCarrier);
             put("Date Of Origin", OperationStatus::getDateOfOrigin);
             put("Start Station", OperationStatus::getStartStation);
             put("End Station", OperationStatus::getEndStation);

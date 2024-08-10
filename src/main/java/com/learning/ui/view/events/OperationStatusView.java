@@ -1,8 +1,9 @@
 package com.learning.ui.view.events;
 
 import com.fasterxml.jackson.core.type.TypeReference;
-import com.learning.ui.component.grid.CustomGrid;
+import com.learning.ui.component.grid.SearchableGrid;
 import com.learning.ui.component.grid.provider.ColumnProviderFactory;
+import com.learning.ui.enums.GridFilterBean;
 import com.learning.ui.layout.MainLayout;
 import com.learning.ui.model.grid.OperationStatus;
 import com.learning.util.JsonFileReader;
@@ -16,9 +17,11 @@ public class OperationStatusView extends VerticalLayout {
     public OperationStatusView(ColumnProviderFactory columnProviderFactory) {
         addClassName("delay-view");
         H1 title = new H1("Operation Status");
-        CustomGrid<OperationStatus> delayGrid = new CustomGrid<>(OperationStatus.class, columnProviderFactory);
-        delayGrid.updateItems(getOperationStatusData());
-        add(title, delayGrid);
+        SearchableGrid<OperationStatus> operationStatusGrid = new SearchableGrid<>(OperationStatus.class, columnProviderFactory);
+        operationStatusGrid.updateItems(getOperationStatusData());
+        operationStatusGrid.setSearchFilters(GridFilterBean.OPERATION_STATUS.getBean());
+
+        add(title, operationStatusGrid);
 
     }
 

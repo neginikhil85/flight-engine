@@ -18,7 +18,7 @@ public class FlightCancelColumnProvider implements ColumnProvider<FlightCancel> 
     public Map<String, ValueProvider<FlightCancel, ?>> getHeaderAndValueProviders() {
         return  new LinkedHashMap<>() {{
             put("Flight No.", FlightCancel::getFlightNumber);
-            put("Carrier", FlightCancel::getCarrier);
+           // put("Carrier", FlightCancel::getCarrier);
             put("Date Of Origin", FlightCancel::getDateOfOrigin);
             put("Start Station", FlightCancel::getStartStation);
             put("End Station", FlightCancel::getEndStation);

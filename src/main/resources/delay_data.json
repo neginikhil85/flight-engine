@@ -5,11 +5,11 @@
     "dateOfOrigin": "2024-08-01",
     "startStation": "JFK",
     "endStation": "LAX",
-    "scheduledStartTime": "2024-08-04 10:00 pm",
+    "scheduledStartTime": "2024-08-04 10:00 PM",
     "delayLimit": "30 mins",
     "remarks": "Weather delay",
     "total": "2",
-    "eventReceivedOn": "30-07-2024 10:00 am",
+    "eventReceivedOn": "30-07-2024 10:00 AM",
     "delays": [
       {
         "time": "10:15 AM",
@@ -33,11 +33,11 @@
     "dateOfOrigin": "2024-08-01",
     "startStation": "ATL",
     "endStation": "ORD",
-    "scheduledStartTime": "2024-08-04 12:00 pm",
+    "scheduledStartTime": "2024-08-04 12:00 PM",
     "delayLimit": "45 mins",
     "remarks": "Technical issue",
     "total": "3",
-    "eventReceivedOn": "30-07-2024 10:05 am",
+    "eventReceivedOn": "30-07-2024 10:05 AM",
     "delays": [
       {
         "time": "12:15 PM",
@@ -68,11 +68,11 @@
     "dateOfOrigin": "2024-08-02",
     "startStation": "SFO",
     "endStation": "SEA",
-    "scheduledStartTime": "2024-08-04 02:00 pm",
+    "scheduledStartTime": "2024-08-04 02:00 PM",
     "delayLimit": "20 mins",
     "remarks": "Operational delay",
     "total": "1",
-    "eventReceivedOn": "30-07-2024 10:10 pm",
+    "eventReceivedOn": "30-07-2024 10:10 PM",
     "delays": [
       {
         "time": "02:10 PM",
@@ -89,11 +89,11 @@
     "dateOfOrigin": "2024-08-03",
     "startStation": "LAX",
     "endStation": "DEN",
-    "scheduledStartTime": "2024-08-04 04:00 pm",
+    "scheduledStartTime": "2024-08-04 04:00 PM",
     "delayLimit": "60 mins",
     "remarks": "Multiple issues",
     "total": "4",
-    "eventReceivedOn": "30-07-2024 10:20 am",
+    "eventReceivedOn": "30-07-2024 10:20 AM",
     "delays": [
       {
         "time": "04:10 PM",
@@ -131,11 +131,11 @@
     "dateOfOrigin": "2024-08-04",
     "startStation": "MIA",
     "endStation": "BOS",
-    "scheduledStartTime": "2024-08-04 06:00 pm",
+    "scheduledStartTime": "2024-08-04 06:00 PM",
     "delayLimit": "25 mins",
     "remarks": "Technical issue",
     "total": "2",
-    "eventReceivedOn": "30-07-2024 10:30 am",
+    "eventReceivedOn": "30-07-2024 10:30 AM",
     "delays": [
       {
         "time": "06:15 PM",

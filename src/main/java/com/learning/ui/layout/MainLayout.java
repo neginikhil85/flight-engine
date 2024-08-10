@@ -61,10 +61,6 @@ public class MainLayout extends AppLayout {
         events.addItem(new SideNavItem("Terminal", "/terminal"));
         events.addItem(new SideNavItem("Operation Status", "/operation-status"));
         events.addItem(new SideNavItem("Gate Change", "/gate-change"));
-        events.addItem(new SideNavItem("In Block Time", "/in-block-time"));
-        events.addItem(new SideNavItem("Off Block Time", "/off-block-time"));
-        events.addItem(new SideNavItem("Landing Time", "/landing-time"));
-        events.addItem(new SideNavItem("Take Off Time", "/take-off-time"));
 
         nav.addItem(events);
         return nav;

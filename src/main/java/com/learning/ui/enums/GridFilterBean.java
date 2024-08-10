@@ -1,10 +1,8 @@
 package com.learning.ui.enums;
 
 import com.learning.ui.component.grid.filter.GridFilters;
-import com.learning.ui.component.grid.filter.impl.DelayDataGridFilters;
-import com.learning.ui.component.grid.filter.impl.DiversionDataGridFilters;
-import com.learning.ui.component.grid.filter.impl.DoorCloseDataGridFilters;
-import com.learning.ui.component.grid.filter.impl.FlightDataGridFilters;
+import com.learning.ui.component.grid.filter.impl.*;
+import com.learning.ui.model.grid.*;
 import lombok.Getter;
 
 import java.util.Map;
@@ -14,9 +12,19 @@ import java.util.function.Supplier;
 @Getter
 public enum GridFilterBean {
     FLIGHT_DATA(FlightDataGridFilters::new),
+    ACTUAL_TIME(ActualTimeDataGridFilters::new),
     DELAY_DATA(DelayDataGridFilters::new),
     DIVERSION_DATA(DiversionDataGridFilters::new),
-    DOOR_CLOSE(DoorCloseDataGridFilters::new);
+    DOOR_CLOSE(DoorCloseDataGridFilters::new),
+    EQUIPMENT(EquipmentDataGridFilters::new),
+    ESTIMATED_TIME(EstimatedTimeDataGridFilters::new),
+    FLIGHT_CANCEL(FlightCancelDataGridFilters::new),
+    FLIGHT_DELETE(FlightDeleteDataGridFilters::new),
+    FLIGHT_RETURN(FlightReturnDataGridFilters::new),
+    GATE_CHANGE(GateChangeDataGridFilters::new),
+    OPERATION_STATUS(OperationStatusDataGridFilters::new),
+    TERMINAL(TerminalDataGridFilters::new);
+
 
     private final GridFilters<?> bean;
     private final SingletonHelper singletonHelper = new SingletonHelper();

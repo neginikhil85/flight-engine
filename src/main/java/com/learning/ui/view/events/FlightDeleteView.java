@@ -1,8 +1,9 @@
 package com.learning.ui.view.events;
 
 import com.fasterxml.jackson.core.type.TypeReference;
-import com.learning.ui.component.grid.CustomGrid;
+import com.learning.ui.component.grid.SearchableGrid;
 import com.learning.ui.component.grid.provider.ColumnProviderFactory;
+import com.learning.ui.enums.GridFilterBean;
 import com.learning.ui.layout.MainLayout;
 import com.learning.ui.model.grid.FlightDelete;
 import com.learning.util.JsonFileReader;
@@ -17,9 +18,10 @@ public class FlightDeleteView extends VerticalLayout {
     public FlightDeleteView(ColumnProviderFactory columnProviderFactory) {
         addClassName("delay-view");
         H1 title = new H1("Flight Delete");
-        CustomGrid<FlightDelete> delayGrid = new CustomGrid<>(FlightDelete.class, columnProviderFactory);
-        delayGrid.updateItems(getFlightDeleteData());
-        add(title, delayGrid);
+        SearchableGrid<FlightDelete> flightDeleteGrid = new SearchableGrid<>(FlightDelete.class, columnProviderFactory);
+        flightDeleteGrid.updateItems(getFlightDeleteData());
+        flightDeleteGrid.setSearchFilters(GridFilterBean.FLIGHT_DELETE.getBean());
+        add(title, flightDeleteGrid);
 
     }
 

@@ -1,8 +1,9 @@
 package com.learning.ui.view.events;
 
 import com.fasterxml.jackson.core.type.TypeReference;
-import com.learning.ui.component.grid.CustomGrid;
+import com.learning.ui.component.grid.SearchableGrid;
 import com.learning.ui.component.grid.provider.ColumnProviderFactory;
+import com.learning.ui.enums.GridFilterBean;
 import com.learning.ui.layout.MainLayout;
 import com.learning.ui.model.grid.ActualTime;
 import com.learning.util.JsonFileReader;
@@ -17,9 +18,10 @@ public class ActualTimeView extends VerticalLayout {
     public ActualTimeView(ColumnProviderFactory columnProviderFactory) {
         addClassName("delay-view");
         H1 title = new H1("Actual Time");
-        CustomGrid<ActualTime> delayGrid = new CustomGrid<>(ActualTime.class, columnProviderFactory);
-        delayGrid.updateItems(getActualTimeData());
-        add(title, delayGrid);
+        SearchableGrid<ActualTime> actualTimeGrid = new SearchableGrid<>(ActualTime.class, columnProviderFactory);
+        actualTimeGrid.updateItems(getActualTimeData());
+        actualTimeGrid.setSearchFilters(GridFilterBean.ACTUAL_TIME.getBean());
+        add(title, actualTimeGrid);
 
     }
 

@@ -18,7 +18,7 @@ public class GateChangeColumnProvider implements ColumnProvider<GateChange> {
     public Map<String, ValueProvider<GateChange, ?>> getHeaderAndValueProviders() {
         return  new LinkedHashMap<>() {{
             put("Flight No.", GateChange::getFlightNumber);
-            put("Carrier", GateChange::getCarrier);
+            //put("Carrier", GateChange::getCarrier);
             put("Date Of Origin", GateChange::getDateOfOrigin);
             put("Start Station", GateChange::getStartStation);
             put("End Station", GateChange::getEndStation);

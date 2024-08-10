@@ -18,7 +18,7 @@ public class FlightReturnColumnProvider implements ColumnProvider<FlightReturn> 
     public Map<String, ValueProvider<FlightReturn, ?>> getHeaderAndValueProviders() {
         return  new LinkedHashMap<>() {{
             put("Flight No.", FlightReturn::getFlightNumber);
-            put("Carrier", FlightReturn::getCarrier);
+            //put("Carrier", FlightReturn::getCarrier);
             put("Date Of Origin", FlightReturn::getDateOfOrigin);
             put("Start Station", FlightReturn::getStartStation);
             put("End Station", FlightReturn::getEndStation);

@@ -1,8 +1,9 @@
 package com.learning.ui.view.events;
 
 import com.fasterxml.jackson.core.type.TypeReference;
-import com.learning.ui.component.grid.CustomGrid;
+import com.learning.ui.component.grid.SearchableGrid;
 import com.learning.ui.component.grid.provider.ColumnProviderFactory;
+import com.learning.ui.enums.GridFilterBean;
 import com.learning.ui.layout.MainLayout;
 import com.learning.ui.model.grid.FlightReturn;
 import com.learning.util.JsonFileReader;
@@ -17,9 +18,11 @@ public class FlightReturnView extends VerticalLayout {
     public FlightReturnView(ColumnProviderFactory columnProviderFactory) {
         addClassName("delay-view");
         H1 title = new H1("Flight Return");
-        CustomGrid<FlightReturn> delayGrid = new CustomGrid<>(FlightReturn.class, columnProviderFactory);
-        delayGrid.updateItems(getFlightReturnData());
-        add(title, delayGrid);
+        SearchableGrid<FlightReturn> flightReturnGrid = new SearchableGrid<>(FlightReturn.class, columnProviderFactory);
+        flightReturnGrid.updateItems(getFlightReturnData());
+        flightReturnGrid.setSearchFilters(GridFilterBean.FLIGHT_RETURN.getBean());
+
+        add(title, flightReturnGrid);
 
     }
 

@@ -23,6 +23,10 @@ public class ActualTimeColumnProvider implements ColumnProvider<ActualTime> {
             put("Start Station", ActualTime::getStartStation);
             put("End Station", ActualTime::getEndStation);
             put("Schedule Start Time", ActualTime::getScheduledStartTime);
+            put("In Block Time",safeValueProvider(actualTime -> actualTime.getInBlockTime().getCurrentInBlock()));
+            put("Off Block Time",safeValueProvider(actualTime -> actualTime.getOffBlockTime().getCurrentOffBlock()));
+            put("Take Off Time",safeValueProvider(actualTime -> actualTime.getTakeOffTime().getCurrentTakeOffTime()));
+            put("Landing Time",safeValueProvider(actualTime -> actualTime.getLandingTime().getCurrentLandingTime()));
         }};
     }
 }

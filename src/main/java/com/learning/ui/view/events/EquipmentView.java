@@ -1,8 +1,9 @@
 package com.learning.ui.view.events;
 
 import com.fasterxml.jackson.core.type.TypeReference;
-import com.learning.ui.component.grid.CustomGrid;
+import com.learning.ui.component.grid.SearchableGrid;
 import com.learning.ui.component.grid.provider.ColumnProviderFactory;
+import com.learning.ui.enums.GridFilterBean;
 import com.learning.ui.layout.MainLayout;
 import com.learning.ui.model.grid.Equipment;
 import com.learning.util.JsonFileReader;
@@ -16,9 +17,10 @@ public class EquipmentView extends VerticalLayout {
     public EquipmentView(ColumnProviderFactory columnProviderFactory) {
         addClassName("delay-view");
         H1 title = new H1("Equipment");
-        CustomGrid<Equipment> delayGrid = new CustomGrid<>(Equipment.class, columnProviderFactory);
-        delayGrid.updateItems(getEquipmentData());
-        add(title, delayGrid);
+        SearchableGrid<Equipment> equipmentGrid = new SearchableGrid<>(Equipment.class, columnProviderFactory);
+        equipmentGrid.updateItems(getEquipmentData());
+        equipmentGrid.setSearchFilters(GridFilterBean.EQUIPMENT.getBean());
+        add(title, equipmentGrid);
 
     }
 

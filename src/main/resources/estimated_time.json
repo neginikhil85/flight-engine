@@ -5,8 +5,17 @@
     "dateOfOrigin": "2024-08-01",
     "startStation": "Ayodhya",
     "endStation": "Delhi",
-    "scheduledStartTime": "2024-08-01 10:00 am",
-    "estimatedTime": "09:50 am"
+    "scheduledStartTime": "2024-08-01 10:00 AM",
+    "offBlockTime": {
+      "currentOffBlock": "2024-08-01 10:15 AM",
+      "previousOffBlock": "2024-08-01 10:10 AM",
+      "timeType": "ESTIMATED"
+    },
+    "landingTime": {
+      "currentLandingTime": "2024-08-01 12:05 PM",
+      "previousLandingTime": "2024-08-01 12:00 PM",
+      "timeType": "ESTIMATED"
+    }
   },
   {
     "flightNumber": 2456,
@@ -14,8 +23,17 @@
     "dateOfOrigin": "2024-08-01",
     "startStation": "Delhi",
     "endStation": "Katra",
-    "scheduledStartTime": "2024-08-01 01:30 pm",
-    "estimatedTime": "01:15 pm"
+    "scheduledStartTime": "2024-08-01 01:30 PM",
+    "inBlockTime": {
+      "currentInBlock": "2024-08-01 03:15 PM",
+      "previousInBlock": "2024-08-01 03:10 PM",
+      "timeType": "ESTIMATED"
+    },
+    "takeOffTime": {
+      "currentTakeOffTime": "2024-08-01 02:00 PM",
+      "previousTakeOffTime": "2024-08-01 01:55 PM",
+      "timeType": "ESTIMATED"
+    }
   },
   {
     "flightNumber": 7890,
@@ -23,8 +41,17 @@
     "dateOfOrigin": "2024-08-01",
     "startStation": "Delhi",
     "endStation": "Kedarnath",
-    "scheduledStartTime": "2024-08-01 08:45 am",
-    "estimatedTime": "08:30 am"
+    "scheduledStartTime": "2024-08-01 08:45 AM",
+    "offBlockTime": {
+      "currentOffBlock": "2024-08-01 09:00 AM",
+      "previousOffBlock": "2024-08-01 08:55 AM",
+      "timeType": "ESTIMATED"
+    },
+    "landingTime": {
+      "currentLandingTime": "2024-08-01 10:20 AM",
+      "previousLandingTime": "2024-08-01 10:15 AM",
+      "timeType": "ESTIMATED"
+    }
   },
   {
     "flightNumber": 3354,
@@ -32,8 +59,17 @@
     "dateOfOrigin": "2024-08-01",
     "startStation": "Mumbai",
     "endStation": "Haridwar",
-    "scheduledStartTime": "2024-08-01 11:15 am",
-    "estimatedTime": "11:00 am"
+    "scheduledStartTime": "2024-08-01 11:15 AM",
+    "takeOffTime": {
+      "currentTakeOffTime": "2024-08-01 11:45 AM",
+      "previousTakeOffTime": "2024-08-01 11:40 AM",
+      "timeType": "ESTIMATED"
+    },
+    "inBlockTime": {
+      "currentInBlock": "2024-08-01 01:45 PM",
+      "previousInBlock": "2024-08-01 01:40 PM",
+      "timeType": "ESTIMATED"
+    }
   },
   {
     "flightNumber": 6745,
@@ -41,7 +77,16 @@
     "dateOfOrigin": "2024-08-01",
     "startStation": "Kolkata",
     "endStation": "Mathura",
-    "scheduledStartTime": "2024-08-01 04:00 pm",
-    "estimatedTime": "03:45 pm"
+    "scheduledStartTime": "2024-08-01 04:00 PM",
+    "offBlockTime": {
+      "currentOffBlock": "2024-08-01 04:15 PM",
+      "previousOffBlock": "2024-08-01 04:10 PM",
+      "timeType": "ESTIMATED"
+    },
+    "landingTime": {
+      "currentLandingTime": "2024-08-01 06:20 PM",
+      "previousLandingTime": "2024-08-01 06:15 PM",
+      "timeType": "ESTIMATED"
+    }
   }
 ]
