@@ -5,15 +5,15 @@
     "dateOfOrigin": "2024-08-01",
     "startStation": "Ayodhya",
     "endStation": "Delhi",
-    "scheduledStartTime": "2024-08-01 10:00 AM",
+    "scheduledStartTime": "2024-08-01 10:00 am",
     "offBlockTime": {
-      "currentOffBlock": "2024-08-01 10:15 AM",
-      "previousOffBlock": "2024-08-01 10:10 AM",
+      "currentOffBlock": "2024-08-01 10:15 am",
+      "previousOffBlock": "2024-08-01 10:10 am",
       "timeType": "ESTIMATED"
     },
     "landingTime": {
-      "currentLandingTime": "2024-08-01 12:05 PM",
-      "previousLandingTime": "2024-08-01 12:00 PM",
+      "currentLandingTime": "2024-08-01 12:05 pm",
+      "previousLandingTime": "2024-08-01 12:00 pm",
       "timeType": "ESTIMATED"
     }
   },
@@ -23,15 +23,15 @@
     "dateOfOrigin": "2024-08-01",
     "startStation": "Delhi",
     "endStation": "Katra",
-    "scheduledStartTime": "2024-08-01 01:30 PM",
+    "scheduledStartTime": "2024-08-01 01:30 pm",
     "inBlockTime": {
-      "currentInBlock": "2024-08-01 03:15 PM",
-      "previousInBlock": "2024-08-01 03:10 PM",
+      "currentInBlock": "2024-08-01 03:15 pm",
+      "previousInBlock": "2024-08-01 03:10 pm",
       "timeType": "ESTIMATED"
     },
     "takeOffTime": {
-      "currentTakeOffTime": "2024-08-01 02:00 PM",
-      "previousTakeOffTime": "2024-08-01 01:55 PM",
+      "currentTakeOffTime": "2024-08-01 02:00 pm",
+      "previousTakeOffTime": "2024-08-01 01:55 pm",
       "timeType": "ESTIMATED"
     }
   },
@@ -41,15 +41,15 @@
     "dateOfOrigin": "2024-08-01",
     "startStation": "Delhi",
     "endStation": "Kedarnath",
-    "scheduledStartTime": "2024-08-01 08:45 AM",
+    "scheduledStartTime": "2024-08-01 08:45 am",
     "offBlockTime": {
-      "currentOffBlock": "2024-08-01 09:00 AM",
-      "previousOffBlock": "2024-08-01 08:55 AM",
+      "currentOffBlock": "2024-08-01 09:00 am",
+      "previousOffBlock": "2024-08-01 08:55 am",
       "timeType": "ESTIMATED"
     },
     "landingTime": {
-      "currentLandingTime": "2024-08-01 10:20 AM",
-      "previousLandingTime": "2024-08-01 10:15 AM",
+      "currentLandingTime": "2024-08-01 10:20 am",
+      "previousLandingTime": "2024-08-01 10:15 am",
       "timeType": "ESTIMATED"
     }
   },
@@ -59,15 +59,15 @@
     "dateOfOrigin": "2024-08-01",
     "startStation": "Mumbai",
     "endStation": "Haridwar",
-    "scheduledStartTime": "2024-08-01 11:15 AM",
+    "scheduledStartTime": "2024-08-01 11:15 am",
     "takeOffTime": {
-      "currentTakeOffTime": "2024-08-01 11:45 AM",
-      "previousTakeOffTime": "2024-08-01 11:40 AM",
+      "currentTakeOffTime": "2024-08-01 11:45 am",
+      "previousTakeOffTime": "2024-08-01 11:40 am",
       "timeType": "ESTIMATED"
     },
     "inBlockTime": {
-      "currentInBlock": "2024-08-01 01:45 PM",
-      "previousInBlock": "2024-08-01 01:40 PM",
+      "currentInBlock": "2024-08-01 01:45 pm",
+      "previousInBlock": "2024-08-01 01:40 pm",
       "timeType": "ESTIMATED"
     }
   },
@@ -77,15 +77,15 @@
     "dateOfOrigin": "2024-08-01",
     "startStation": "Kolkata",
     "endStation": "Mathura",
-    "scheduledStartTime": "2024-08-01 04:00 PM",
+    "scheduledStartTime": "2024-08-01 04:00 pm",
     "offBlockTime": {
-      "currentOffBlock": "2024-08-01 04:15 PM",
-      "previousOffBlock": "2024-08-01 04:10 PM",
+      "currentOffBlock": "2024-08-01 04:15 pm",
+      "previousOffBlock": "2024-08-01 04:10 pm",
       "timeType": "ESTIMATED"
     },
     "landingTime": {
-      "currentLandingTime": "2024-08-01 06:20 PM",
-      "previousLandingTime": "2024-08-01 06:15 PM",
+      "currentLandingTime": "2024-08-01 06:20 pm",
+      "previousLandingTime": "2024-08-01 06:15 pm",
       "timeType": "ESTIMATED"
     }
   }

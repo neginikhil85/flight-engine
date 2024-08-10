@@ -12,3 +12,5 @@ html {
     --vaadin-app-layout-drawer-width : 12rem;
     --lumo-font-family: 'Poppins';
 }
+
+scrollbar-width: thin;

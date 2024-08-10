@@ -5,25 +5,25 @@
     "dateOfOrigin": "2024-08-01",
     "startStation": "Ayodhya",
     "endStation": "Delhi",
-    "scheduledStartTime": "2024-08-01 10:00 AM",
+    "scheduledStartTime": "2024-08-01 10:00 am",
     "inBlockTime": {
-      "currentInBlock": "2024-08-01 12:15 PM",
-      "previousInBlock": "2024-08-01 12:10 PM",
+      "currentInBlock": "2024-08-01 12:15 pm",
+      "previousInBlock": "2024-08-01 12:10 pm",
       "timeType": "ACTUAL"
     },
     "offBlockTime": {
-      "currentOffBlock": "2024-08-01 12:30 PM",
-      "previousOffBlock": "2024-08-01 01:40 PM",
+      "currentOffBlock": "2024-08-01 12:30 pm",
+      "previousOffBlock": "2024-08-01 01:40 pm",
       "timeType": "ACTUAL"
     },
     "takeOffTime": {
-      "currentTakeOffTime": "2024-08-01 10:30 AM",
-      "previousTakeOffTime": "2024-08-01 10:25 AM",
+      "currentTakeOffTime": "2024-08-01 10:30 am",
+      "previousTakeOffTime": "2024-08-01 10:25 am",
       "timeType": "ACTUAL"
     },
     "landingTime": {
-      "currentLandingTime": "2024-08-01 12:05 PM",
-      "previousLandingTime": "2024-08-01 12:00 PM",
+      "currentLandingTime": "2024-08-01 12:05 pm",
+      "previousLandingTime": "2024-08-01 12:00 pm",
       "timeType": "ACTUAL"
     }
   },
@@ -33,15 +33,15 @@
     "dateOfOrigin": "2024-08-01",
     "startStation": "Delhi",
     "endStation": "Katra",
-    "scheduledStartTime": "2024-08-01 01:30 PM",
+    "scheduledStartTime": "2024-08-01 01:30 pm",
     "offBlockTime": {
-      "currentOffBlock": "2024-08-01 01:45 PM",
-      "previousOffBlock": "2024-08-01 01:40 PM",
+      "currentOffBlock": "2024-08-01 01:45 pm",
+      "previousOffBlock": "2024-08-01 01:40 pm",
       "timeType": "ACTUAL"
     },
     "landingTime": {
-      "currentLandingTime": "2024-08-01 03:05 PM",
-      "previousLandingTime": "2024-08-01 03:00 PM",
+      "currentLandingTime": "2024-08-01 03:05 pm",
+      "previousLandingTime": "2024-08-01 03:00 pm",
       "timeType": "ACTUAL"
     }
   },
@@ -51,15 +51,15 @@
     "dateOfOrigin": "2024-08-01",
     "startStation": "Delhi",
     "endStation": "Kedarnath",
-    "scheduledStartTime": "2024-08-01 08:45 AM",
+    "scheduledStartTime": "2024-08-01 08:45 am",
     "inBlockTime": {
-      "currentInBlock": "2024-08-01 10:30 AM",
-      "previousInBlock": "2024-08-01 10:25 AM",
+      "currentInBlock": "2024-08-01 10:30 am",
+      "previousInBlock": "2024-08-01 10:25 am",
       "timeType": "ACTUAL"
     },
     "takeOffTime": {
-      "currentTakeOffTime": "2024-08-01 09:15 AM",
-      "previousTakeOffTime": "2024-08-01 09:10 AM",
+      "currentTakeOffTime": "2024-08-01 09:15 am",
+      "previousTakeOffTime": "2024-08-01 09:10 am",
       "timeType": "ACTUAL"
     }
   },
@@ -69,15 +69,15 @@
     "dateOfOrigin": "2024-08-01",
     "startStation": "Mumbai",
     "endStation": "Haridwar",
-    "scheduledStartTime": "2024-08-01 11:15 AM",
+    "scheduledStartTime": "2024-08-01 11:15 am",
     "offBlockTime": {
-      "currentOffBlock": "2024-08-01 11:30 AM",
-      "previousOffBlock": "2024-08-01 11:25 AM",
+      "currentOffBlock": "2024-08-01 11:30 am",
+      "previousOffBlock": "2024-08-01 11:25 am",
       "timeType": "ACTUAL"
     },
     "landingTime": {
-      "currentLandingTime": "2024-08-01 01:35 PM",
-      "previousLandingTime": "2024-08-01 01:30 PM",
+      "currentLandingTime": "2024-08-01 01:35 pm",
+      "previousLandingTime": "2024-08-01 01:30 pm",
       "timeType": "ACTUAL"
     }
   },
@@ -87,15 +87,15 @@
     "dateOfOrigin": "2024-08-01",
     "startStation": "Kolkata",
     "endStation": "Mathura",
-    "scheduledStartTime": "2024-08-01 04:00 PM",
+    "scheduledStartTime": "2024-08-01 04:00 pm",
     "takeOffTime": {
-      "currentTakeOffTime": "2024-08-01 04:30 PM",
-      "previousTakeOffTime": "2024-08-01 04:25 PM",
+      "currentTakeOffTime": "2024-08-01 04:30 pm",
+      "previousTakeOffTime": "2024-08-01 04:25 pm",
       "timeType": "ACTUAL"
     },
     "inBlockTime": {
-      "currentInBlock": "2024-08-01 06:30 PM",
-      "previousInBlock": "2024-08-01 06:25 PM",
+      "currentInBlock": "2024-08-01 06:30 pm",
+      "previousInBlock": "2024-08-01 06:25 pm",
       "timeType": "ACTUAL"
     }
   }
