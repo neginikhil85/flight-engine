@@ -3,8 +3,8 @@
     "flightNumber": 1112,
     "carrier": "6E",
     "dateOfOrigin": "2024-08-01",
-    "startStation": "Ayodhya",
-    "endStation": "Delhi",
+    "startStation": "AYD",
+    "endStation": "DEL",
     "scheduledStartTime": "2024-08-01 10:00 am",
     "inBlockTime": {
       "currentInBlock": "2024-08-01 12:15 pm",
@@ -13,17 +13,17 @@
     },
     "offBlockTime": {
       "currentOffBlock": "2024-08-01 12:30 pm",
-      "previousOffBlock": "2024-08-01 01:40 pm",
+      "previousOffBlock": "2024-08-01 12:25 pm",
       "timeType": "ACTUAL"
     },
     "takeOffTime": {
-      "currentTakeOffTime": "2024-08-01 10:30 am",
-      "previousTakeOffTime": "2024-08-01 10:25 am",
+      "currentTakeOffTime": "2024-08-01 12:45 pm",
+      "previousTakeOffTime": "2024-08-01 12:40 pm",
       "timeType": "ACTUAL"
     },
     "landingTime": {
-      "currentLandingTime": "2024-08-01 12:05 pm",
-      "previousLandingTime": "2024-08-01 12:00 pm",
+      "currentLandingTime": "2024-08-01 01:30 pm",
+      "previousLandingTime": "2024-08-01 01:25 pm",
       "timeType": "ACTUAL"
     }
   },
@@ -31,17 +31,27 @@
     "flightNumber": 2456,
     "carrier": "6E",
     "dateOfOrigin": "2024-08-01",
-    "startStation": "Delhi",
-    "endStation": "Katra",
+    "startStation": "DEL",
+    "endStation": "KAT",
     "scheduledStartTime": "2024-08-01 01:30 pm",
+    "inBlockTime": {
+      "currentInBlock": "2024-08-01 03:05 pm",
+      "previousInBlock": "2024-08-01 03:00 pm",
+      "timeType": "ACTUAL"
+    },
     "offBlockTime": {
-      "currentOffBlock": "2024-08-01 01:45 pm",
-      "previousOffBlock": "2024-08-01 01:40 pm",
+      "currentOffBlock": "2024-08-01 03:20 pm",
+      "previousOffBlock": "2024-08-01 03:15 pm",
+      "timeType": "ACTUAL"
+    },
+    "takeOffTime": {
+      "currentTakeOffTime": "2024-08-01 03:35 pm",
+      "previousTakeOffTime": "2024-08-01 03:30 pm",
       "timeType": "ACTUAL"
     },
     "landingTime": {
-      "currentLandingTime": "2024-08-01 03:05 pm",
-      "previousLandingTime": "2024-08-01 03:00 pm",
+      "currentLandingTime": "2024-08-01 05:00 pm",
+      "previousLandingTime": "2024-08-01 04:55 pm",
       "timeType": "ACTUAL"
     }
   },
@@ -49,17 +59,27 @@
     "flightNumber": 7890,
     "carrier": "6E",
     "dateOfOrigin": "2024-08-01",
-    "startStation": "Delhi",
-    "endStation": "Kedarnath",
+    "startStation": "DEL",
+    "endStation": "KED",
     "scheduledStartTime": "2024-08-01 08:45 am",
     "inBlockTime": {
       "currentInBlock": "2024-08-01 10:30 am",
       "previousInBlock": "2024-08-01 10:25 am",
       "timeType": "ACTUAL"
     },
+    "offBlockTime": {
+      "currentOffBlock": "2024-08-01 10:45 am",
+      "previousOffBlock": "2024-08-01 10:40 am",
+      "timeType": "ACTUAL"
+    },
     "takeOffTime": {
-      "currentTakeOffTime": "2024-08-01 09:15 am",
-      "previousTakeOffTime": "2024-08-01 09:10 am",
+      "currentTakeOffTime": "2024-08-01 11:00 am",
+      "previousTakeOffTime": "2024-08-01 10:55 am",
+      "timeType": "ACTUAL"
+    },
+    "landingTime": {
+      "currentLandingTime": "2024-08-01 12:45 pm",
+      "previousLandingTime": "2024-08-01 12:40 pm",
       "timeType": "ACTUAL"
     }
   },
@@ -67,17 +87,27 @@
     "flightNumber": 3354,
     "carrier": "6E",
     "dateOfOrigin": "2024-08-01",
-    "startStation": "Mumbai",
-    "endStation": "Haridwar",
+    "startStation": "BOM",
+    "endStation": "HRD",
     "scheduledStartTime": "2024-08-01 11:15 am",
+    "inBlockTime": {
+      "currentInBlock": "2024-08-01 01:35 pm",
+      "previousInBlock": "2024-08-01 01:30 pm",
+      "timeType": "ACTUAL"
+    },
     "offBlockTime": {
-      "currentOffBlock": "2024-08-01 11:30 am",
-      "previousOffBlock": "2024-08-01 11:25 am",
+      "currentOffBlock": "2024-08-01 01:50 pm",
+      "previousOffBlock": "2024-08-01 01:45 pm",
+      "timeType": "ACTUAL"
+    },
+    "takeOffTime": {
+      "currentTakeOffTime": "2024-08-01 02:05 pm",
+      "previousTakeOffTime": "2024-08-01 02:00 pm",
       "timeType": "ACTUAL"
     },
     "landingTime": {
-      "currentLandingTime": "2024-08-01 01:35 pm",
-      "previousLandingTime": "2024-08-01 01:30 pm",
+      "currentLandingTime": "2024-08-01 03:50 pm",
+      "previousLandingTime": "2024-08-01 03:45 pm",
       "timeType": "ACTUAL"
     }
   },
@@ -85,17 +115,27 @@
     "flightNumber": 6745,
     "carrier": "6E",
     "dateOfOrigin": "2024-08-01",
-    "startStation": "Kolkata",
-    "endStation": "Mathura",
+    "startStation": "CCU",
+    "endStation": "MTR",
     "scheduledStartTime": "2024-08-01 04:00 pm",
-    "takeOffTime": {
-      "currentTakeOffTime": "2024-08-01 04:30 pm",
-      "previousTakeOffTime": "2024-08-01 04:25 pm",
-      "timeType": "ACTUAL"
-    },
     "inBlockTime": {
       "currentInBlock": "2024-08-01 06:30 pm",
       "previousInBlock": "2024-08-01 06:25 pm",
+      "timeType": "ACTUAL"
+    },
+    "offBlockTime": {
+      "currentOffBlock": "2024-08-01 06:45 pm",
+      "previousOffBlock": "2024-08-01 06:40 pm",
+      "timeType": "ACTUAL"
+    },
+    "takeOffTime": {
+      "currentTakeOffTime": "2024-08-01 07:00 pm",
+      "previousTakeOffTime": "2024-08-01 06:55 pm",
+      "timeType": "ACTUAL"
+    },
+    "landingTime": {
+      "currentLandingTime": "2024-08-01 09:00 pm",
+      "previousLandingTime": "2024-08-01 08:55 pm",
       "timeType": "ACTUAL"
     }
   }
