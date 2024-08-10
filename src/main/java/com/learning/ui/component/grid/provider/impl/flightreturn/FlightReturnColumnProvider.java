@@ -1,8 +1,7 @@
 package com.learning.ui.component.grid.provider.impl.flightreturn;
 
 import com.learning.ui.component.grid.provider.ColumnProvider;
-import com.learning.ui.model.FlightReturn;
-import com.learning.ui.model.FlightReturn;
+import com.learning.ui.model.grid.FlightReturn;
 import com.vaadin.flow.function.ValueProvider;
 import org.springframework.stereotype.Component;
 
@@ -23,7 +22,7 @@ public class FlightReturnColumnProvider implements ColumnProvider<FlightReturn> 
             put("Date Of Origin", FlightReturn::getDateOfOrigin);
             put("Start Station", FlightReturn::getStartStation);
             put("End Station", FlightReturn::getEndStation);
-            put("Schedule Start Time", FlightReturn::getScheduleStartTime);
+            put("Scheduled Start Time", FlightReturn::getScheduledStartTime);
         }};
     }
 }

@@ -2,7 +2,7 @@ package com.learning.ui.component.dialog;
 
 import com.learning.ui.component.grid.CustomGrid;
 import com.learning.ui.component.grid.provider.ColumnProviderFactory;
-import com.learning.ui.model.DelayData;
+import com.learning.ui.model.grid.DelayData;
 import com.vaadin.flow.component.button.Button;
 import com.vaadin.flow.component.dialog.Dialog;
 import com.vaadin.flow.component.html.Div;

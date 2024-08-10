@@ -1,8 +1,7 @@
 package com.learning.ui.component.grid.provider.impl.takeofftime;
 
 import com.learning.ui.component.grid.provider.ColumnProvider;
-import com.learning.ui.model.TakeOffTime;
-import com.learning.ui.model.TakeOffTime;
+import com.learning.ui.model.grid.TakeOffTime;
 import com.vaadin.flow.function.ValueProvider;
 import org.springframework.stereotype.Component;
 
@@ -23,7 +22,7 @@ public class TakeOffTimeColumnProvider implements ColumnProvider<TakeOffTime> {
             put("Date Of Origin", TakeOffTime::getDateOfOrigin);
             put("Start Station", TakeOffTime::getStartStation);
             put("End Station", TakeOffTime::getEndStation);
-            put("Schedule Start Time", TakeOffTime::getScheduleStartTime);
+            put("Scheduled Start Time", TakeOffTime::getScheduledStartTime);
         }};
     }
 }

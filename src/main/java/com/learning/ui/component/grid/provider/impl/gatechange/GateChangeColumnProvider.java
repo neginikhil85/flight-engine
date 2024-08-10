@@ -1,8 +1,7 @@
 package com.learning.ui.component.grid.provider.impl.gatechange;
 
 import com.learning.ui.component.grid.provider.ColumnProvider;
-import com.learning.ui.model.GateChange;
-import com.learning.ui.model.GateChange;
+import com.learning.ui.model.grid.GateChange;
 import com.vaadin.flow.function.ValueProvider;
 import org.springframework.stereotype.Component;
 
@@ -23,7 +22,7 @@ public class GateChangeColumnProvider implements ColumnProvider<GateChange> {
             put("Date Of Origin", GateChange::getDateOfOrigin);
             put("Start Station", GateChange::getStartStation);
             put("End Station", GateChange::getEndStation);
-            put("Schedule Start Time", GateChange::getScheduleStartTime);
+            put("Scheduled Start Time", GateChange::getScheduledStartTime);
         }};
     }
 }

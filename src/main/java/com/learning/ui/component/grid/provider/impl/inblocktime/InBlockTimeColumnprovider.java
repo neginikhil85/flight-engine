@@ -1,8 +1,7 @@
 package com.learning.ui.component.grid.provider.impl.inblocktime;
 
 import com.learning.ui.component.grid.provider.ColumnProvider;
-import com.learning.ui.model.InBlockTime;
-import com.learning.ui.model.InBlockTime;
+import com.learning.ui.model.grid.InBlockTime;
 import com.vaadin.flow.function.ValueProvider;
 import org.springframework.stereotype.Component;
 
@@ -23,7 +22,7 @@ public class InBlockTimeColumnprovider implements ColumnProvider<InBlockTime> {
             put("Date Of Origin", InBlockTime::getDateOfOrigin);
             put("Start Station", InBlockTime::getStartStation);
             put("End Station", InBlockTime::getEndStation);
-            put("Schedule Start Time", InBlockTime::getScheduleStartTime);
+            put("Scheduled Start Time", InBlockTime::getScheduledStartTime);
         }};
     }
 }

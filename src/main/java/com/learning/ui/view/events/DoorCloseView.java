@@ -2,9 +2,11 @@ package com.learning.ui.view.events;
 
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.learning.ui.component.grid.CustomGrid;
+import com.learning.ui.component.grid.SearchableGrid;
 import com.learning.ui.component.grid.provider.ColumnProviderFactory;
+import com.learning.ui.enums.GridFilterBean;
 import com.learning.ui.layout.MainLayout;
-import com.learning.ui.model.DoorClose;
+import com.learning.ui.model.grid.DoorClose;
 import com.learning.util.JsonFileReader;
 import com.vaadin.flow.component.html.H1;
 import com.vaadin.flow.component.orderedlayout.VerticalLayout;
@@ -18,9 +20,10 @@ public class DoorCloseView extends VerticalLayout {
     public DoorCloseView(ColumnProviderFactory columnProviderFactory) {
         addClassName("delay-view");
         H1 title = new H1("Door Close");
-        CustomGrid<DoorClose> delayGrid = new CustomGrid<>(DoorClose.class, columnProviderFactory);
-        delayGrid.updateItems(getDoorCloseData());
-        add(title, delayGrid);
+        SearchableGrid<DoorClose> doorCloseGrid = new SearchableGrid<>(DoorClose.class, columnProviderFactory);
+        doorCloseGrid.updateItems(getDoorCloseData());
+        doorCloseGrid.setSearchFilters(GridFilterBean.DOOR_CLOSE.getBean());
+        add(title, doorCloseGrid);
 
     }
 

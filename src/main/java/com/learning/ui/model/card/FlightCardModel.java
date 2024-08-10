@@ -1,4 +1,4 @@
-package com.learning.ui.model;
+package com.learning.ui.model.card;
 
 import com.learning.ui.component.text.LabeledValue;
 import com.learning.ui.enums.FlightDataFields;

@@ -7,6 +7,7 @@ import lombok.Getter;
 import java.util.Collections;
 import java.util.List;
 import java.util.Map;
+import java.util.function.Function;
 
 public interface ColumnProvider<T> {
 
@@ -30,6 +31,16 @@ public interface ColumnProvider<T> {
             this.renderer = renderer;
         }
 
+    }
+
+    default <T, R> ValueProvider<T, R> safeValueProvider(Function<T, R> mapper) {
+        return t -> {
+            try {
+                return mapper.apply(t);
+            } catch (NullPointerException e) {
+                return null;
+            }
+        };
     }
 
 

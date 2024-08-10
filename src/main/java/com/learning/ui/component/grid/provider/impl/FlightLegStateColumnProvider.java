@@ -1,7 +1,7 @@
 package com.learning.ui.component.grid.provider.impl;
 
 import com.learning.ui.component.grid.provider.ColumnProvider;
-import com.learning.ui.model.FlightLegState;
+import com.learning.ui.model.grid.FlightLegState;
 import com.vaadin.flow.function.ValueProvider;
 import org.springframework.stereotype.Component;
 
@@ -23,7 +23,7 @@ public class FlightLegStateColumnProvider implements ColumnProvider<FlightLegSta
             put("Date Of Origin", FlightLegState::getDateOfOrigin);
             put("Start Station", FlightLegState::getStartStation);
             put("End Station", FlightLegState::getEndStation);
-            put("Schedule Start Time", FlightLegState::getScheduleStartTime);
+            put("Scheduled Start Time", FlightLegState::getScheduledStartTime);
             put("Start Terminal", FlightLegState::getStartTerminal);
             put("End Terminal", FlightLegState::getEndTerminal);
             put("Operational Status", FlightLegState::getOperationalStatus);

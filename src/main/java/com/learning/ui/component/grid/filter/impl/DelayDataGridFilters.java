@@ -1,7 +1,7 @@
 package com.learning.ui.component.grid.filter.impl;
 
 import com.learning.ui.component.grid.filter.GridFilters;
-import com.learning.ui.model.DelayData;
+import com.learning.ui.model.grid.DelayData;
 import com.vaadin.flow.function.SerializablePredicate;
 
 import java.util.function.Predicate;
@@ -18,7 +18,7 @@ public class DelayDataGridFilters implements GridFilters<DelayData> {
                     matchesTerm(String.valueOf(delayData.getDateOfOrigin()), searchTerm) ||
                     matchesTerm(String.valueOf(delayData.getStartStation()), searchTerm) ||
                     matchesTerm(String.valueOf(delayData.getEndStation()), searchTerm) ||
-                    matchesTerm(String.valueOf(delayData.getScheduleStartTime()), searchTerm) ||
+                    matchesTerm(String.valueOf(delayData.getScheduledStartTime()), searchTerm) ||
                     matchesTerm(delayData.getDelayLimit(), searchTerm) ||
                     matchesTerm(delayData.getRemarks(), searchTerm) ||
                     matchesTerm(delayData.getTotal(), searchTerm) ||
@@ -30,9 +30,5 @@ public class DelayDataGridFilters implements GridFilters<DelayData> {
 
     private static boolean anyMatches(DelayData delayData, Predicate<DelayData.DelayItem> predicate) {
         return delayData.getDelays().stream().anyMatch(predicate);
-    }
-
-    private boolean matchesTerm(String value, String searchTerm) {
-        return value.toLowerCase().contains(searchTerm.toLowerCase());
     }
 }

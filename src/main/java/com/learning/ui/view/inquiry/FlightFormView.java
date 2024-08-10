@@ -2,10 +2,9 @@ package com.learning.ui.view.inquiry;
 
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.learning.ui.component.form.FlightForm;
-import com.learning.ui.model.FlightLegState;
+import com.learning.ui.model.grid.FlightLegState;
 import com.learning.util.JsonFileReader;
 import com.vaadin.flow.component.AbstractField;
-import com.vaadin.flow.component.Component;
 import com.vaadin.flow.component.HasValue;
 import com.vaadin.flow.component.UI;
 import com.vaadin.flow.component.button.Button;

@@ -1,7 +1,7 @@
 package com.learning.ui.component.grid.provider.impl.delay;
 
 import com.learning.ui.component.grid.provider.ColumnProvider;
-import com.learning.ui.model.DelayData;
+import com.learning.ui.model.grid.DelayData;
 import com.vaadin.flow.function.ValueProvider;
 import org.springframework.stereotype.Component;
 

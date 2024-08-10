@@ -3,9 +3,8 @@ package com.learning.ui.component.grid.provider.impl.delay;
 import com.learning.ui.component.dialog.DelayDialog;
 import com.learning.ui.component.grid.provider.ColumnProvider;
 import com.learning.ui.component.grid.provider.ColumnProviderFactory;
-import com.learning.ui.model.DelayData;
+import com.learning.ui.model.grid.DelayData;
 import com.vaadin.flow.component.button.Button;
-import com.vaadin.flow.component.icon.Icon;
 import com.vaadin.flow.component.icon.VaadinIcon;
 import com.vaadin.flow.data.renderer.ComponentRenderer;
 import com.vaadin.flow.function.ValueProvider;
@@ -13,7 +12,6 @@ import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
 
 import java.time.format.DateTimeFormatter;
-import java.util.Comparator;
 import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
@@ -36,7 +34,7 @@ public class DelayDataColumnProvider implements ColumnProvider<DelayData> {
             put("Date Of Origin", DelayData::getDateOfOrigin);
             put("Start Station", DelayData::getStartStation);
             put("End Station", DelayData::getEndStation);
-            put("Schedule Start Time", DelayData::getScheduleStartTime);
+            put("Scheduled Start Time", DelayData::getScheduledStartTime);
             put("Delay limit", DelayData::getDelayLimit);
             put("Delay Remarks", DelayData::getRemarks);
             put("Total Delays", DelayData::getTotal);

@@ -1,8 +1,7 @@
 package com.learning.ui.component.grid.provider.impl.operationstatus;
 
 import com.learning.ui.component.grid.provider.ColumnProvider;
-import com.learning.ui.model.OperationStatus;
-import com.learning.ui.model.OperationStatus;
+import com.learning.ui.model.grid.OperationStatus;
 import com.vaadin.flow.function.ValueProvider;
 import org.springframework.stereotype.Component;
 
@@ -23,7 +22,7 @@ public class OperationStatusColumnProvider implements ColumnProvider<OperationSt
             put("Date Of Origin", OperationStatus::getDateOfOrigin);
             put("Start Station", OperationStatus::getStartStation);
             put("End Station", OperationStatus::getEndStation);
-            put("Schedule Start Time", OperationStatus::getScheduleStartTime);
+            put("Scheduled Start Time", OperationStatus::getScheduledStartTime);
         }};
     }
 }

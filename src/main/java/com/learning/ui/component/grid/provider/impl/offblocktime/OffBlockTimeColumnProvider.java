@@ -1,8 +1,7 @@
 package com.learning.ui.component.grid.provider.impl.offblocktime;
 
 import com.learning.ui.component.grid.provider.ColumnProvider;
-import com.learning.ui.model.OffBlockTime;
-import com.learning.ui.model.OffBlockTime;
+import com.learning.ui.model.grid.OffBlockTime;
 import com.vaadin.flow.function.ValueProvider;
 import org.springframework.stereotype.Component;
 
@@ -24,7 +23,7 @@ public class OffBlockTimeColumnProvider implements ColumnProvider<OffBlockTime> 
             put("Date Of Origin", OffBlockTime::getDateOfOrigin);
             put("Start Station", OffBlockTime::getStartStation);
             put("End Station", OffBlockTime::getEndStation);
-            put("Schedule Start Time", OffBlockTime::getScheduleStartTime);
+            put("Scheduled Start Time", OffBlockTime::getScheduledStartTime);
         }};
     }
 }

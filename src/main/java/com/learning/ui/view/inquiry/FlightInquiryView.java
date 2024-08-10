@@ -2,7 +2,7 @@ package com.learning.ui.view.inquiry;
 
 import com.learning.ui.component.grid.provider.ColumnProviderFactory;
 import com.learning.ui.layout.MainLayout;
-import com.learning.ui.model.FlightLegState;
+import com.learning.ui.model.grid.FlightLegState;
 import com.vaadin.flow.component.button.Button;
 import com.vaadin.flow.component.html.Div;
 import com.vaadin.flow.component.html.H1;

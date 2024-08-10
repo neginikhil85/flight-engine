@@ -1,8 +1,7 @@
 package com.learning.ui.component.grid.provider.impl.flightdelete;
 
 import com.learning.ui.component.grid.provider.ColumnProvider;
-import com.learning.ui.model.FlightDelete;
-import com.learning.ui.model.FlightDelete;
+import com.learning.ui.model.grid.FlightDelete;
 import com.vaadin.flow.function.ValueProvider;
 import org.springframework.stereotype.Component;
 
@@ -23,7 +22,7 @@ public class FlightDeleteColumnProvider implements ColumnProvider<FlightDelete> 
             put("Date Of Origin", FlightDelete::getDateOfOrigin);
             put("Start Station", FlightDelete::getStartStation);
             put("End Station", FlightDelete::getEndStation);
-            put("Schedule Start Time", FlightDelete::getScheduleStartTime);
+            put("Scheduled Start Time", FlightDelete::getScheduledStartTime);
         }};
     }
 }

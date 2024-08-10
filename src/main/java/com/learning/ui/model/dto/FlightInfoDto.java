@@ -1,19 +1,22 @@
-package com.learning.ui.model;
+package com.learning.ui.model.dto;
 
+import com.fasterxml.jackson.annotation.JsonFormat;
 import lombok.*;
 import lombok.experimental.SuperBuilder;
 
 import java.time.LocalDate;
+import java.time.LocalDateTime;
 
 @Data
 @SuperBuilder
 @AllArgsConstructor
 @NoArgsConstructor
-public class FlightInfo {
+public class FlightInfoDto {
     private int flightNumber;
     private String carrier;
     private LocalDate dateOfOrigin;
     private String startStation;
     private String endStation;
-    private String scheduleStartTime;
+    @JsonFormat(pattern = "yyyy-MM-dd hh:mm a")
+    private LocalDateTime scheduledStartTime;
 }

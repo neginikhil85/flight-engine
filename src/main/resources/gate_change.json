@@ -5,7 +5,7 @@
     "dateOfOrigin": "2024-08-01",
     "startStation": "Ayodhya",
     "endStation": "Delhi",
-    "scheduleStartTime": "10:00 AM"
+    "scheduledStartTime": "2024-08-01 10:00 am"
   },
   {
     "flightNumber": 2456,
@@ -13,7 +13,7 @@
     "dateOfOrigin": "2024-08-01",
     "startStation": "Delhi",
     "endStation": "Katra",
-    "scheduleStartTime": "01:30 PM"
+    "scheduledStartTime": "2024-08-01 01:30 pm"
   },
   {
     "flightNumber": 7890,
@@ -21,7 +21,7 @@
     "dateOfOrigin": "2024-08-01",
     "startStation": "Delhi",
     "endStation": "Kedarnath",
-    "scheduleStartTime": "08:45 AM"
+    "scheduledStartTime": "2024-08-01 08:45 am"
   },
   {
     "flightNumber": 3354,
@@ -29,7 +29,7 @@
     "dateOfOrigin": "2024-08-01",
     "startStation": "Mumbai",
     "endStation": "Haridwar",
-    "scheduleStartTime": "11:15 AM"
+    "scheduledStartTime": "2024-08-01 11:15 am"
   },
   {
     "flightNumber": 6745,
@@ -37,6 +37,6 @@
     "dateOfOrigin": "2024-08-01",
     "startStation": "Kolkata",
     "endStation": "Mathura",
-    "scheduleStartTime": "04:00 PM"
+    "scheduledStartTime": "2024-08-01 04:00 pm"
   }
 ]

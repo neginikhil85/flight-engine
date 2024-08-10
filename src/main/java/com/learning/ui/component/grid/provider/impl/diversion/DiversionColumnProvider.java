@@ -1,7 +1,7 @@
 package com.learning.ui.component.grid.provider.impl.diversion;
 
 import com.learning.ui.component.grid.provider.ColumnProvider;
-import com.learning.ui.model.DiversionData;
+import com.learning.ui.model.grid.DiversionData;
 import com.vaadin.flow.function.ValueProvider;
 import org.springframework.stereotype.Component;
 
@@ -21,7 +21,7 @@ public class DiversionColumnProvider implements ColumnProvider<DiversionData> {
             put("Date Of Origin", DiversionData::getDateOfOrigin);
             put("Start Station", DiversionData::getStartStation);
             put("End Station", DiversionData::getEndStation);
-            put("Schedule Start Time", DiversionData::getScheduleStartTime);
+            put("Scheduled Start Time", DiversionData::getScheduledStartTime);
             put("Flight Status", DiversionData::getFlightStatus);
             put("Effective Arrival Station", DiversionData::getEffectiveArrivalStation);
             put("Diversion Reason", DiversionData::getDiversionCode);
@@ -31,7 +31,7 @@ public class DiversionColumnProvider implements ColumnProvider<DiversionData> {
             put("Continuation Date Of Origin", diversionData -> diversionData.getContinuationLeg().getDateOfOrigin());
             put("Continuation Start Station", diversionData -> diversionData.getContinuationLeg().getStartStation());
             put("Continuation end Station", diversionData -> diversionData.getContinuationLeg().getEndStation());
-            put("Continuation Schedule Start Time", diversionData -> diversionData.getContinuationLeg().getScheduleStartTime());
+            put("Continuation Scheduled Start Time", diversionData -> diversionData.getContinuationLeg().getScheduledStartTime());
             put("Continuation suffix", diversionData -> diversionData.getContinuationLeg().getSuffix());
             put("Continuation scheduled End Time", diversionData -> diversionData.getContinuationLeg().getScheduledEndTime());
             put("Continuation Start Time Offset", diversionData -> diversionData.getContinuationLeg().getStartTimeOffset());

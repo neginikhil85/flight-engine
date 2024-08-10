@@ -1,7 +1,7 @@
 package com.learning.ui.component.grid.provider.impl.actualtime;
 
 import com.learning.ui.component.grid.provider.ColumnProvider;
-import com.learning.ui.model.ActualTime;
+import com.learning.ui.model.grid.ActualTime;
 import com.vaadin.flow.function.ValueProvider;
 import org.springframework.stereotype.Component;
 
@@ -22,7 +22,7 @@ public class ActualTimeColumnProvider implements ColumnProvider<ActualTime> {
             put("Date Of Origin", ActualTime::getDateOfOrigin);
             put("Start Station", ActualTime::getStartStation);
             put("End Station", ActualTime::getEndStation);
-            put("Schedule Start Time", ActualTime::getScheduleStartTime);
+            put("Schedule Start Time", ActualTime::getScheduledStartTime);
         }};
     }
 }

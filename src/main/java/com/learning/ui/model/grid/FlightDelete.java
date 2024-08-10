@@ -1,5 +1,6 @@
-package com.learning.ui.model;
+package com.learning.ui.model.grid;
 
+import com.learning.ui.model.dto.FlightInfoDto;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
 import lombok.NoArgsConstructor;
@@ -9,5 +10,6 @@ import lombok.experimental.SuperBuilder;
 @Data
 @SuperBuilder
 @NoArgsConstructor
-public class OperationStatus extends FlightInfo{
+public class FlightDelete extends FlightInfoDto {
+    private String operationalStatus;
 }

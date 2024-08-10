@@ -1,8 +1,7 @@
 package com.learning.ui.component.grid.provider.impl.terminal;
 
 import com.learning.ui.component.grid.provider.ColumnProvider;
-import com.learning.ui.model.Terminal;
-import com.learning.ui.model.Terminal;
+import com.learning.ui.model.grid.Terminal;
 import com.vaadin.flow.function.ValueProvider;
 import org.springframework.stereotype.Component;
 
@@ -23,7 +22,7 @@ public class TerminalColumnProvider implements ColumnProvider<Terminal> {
             put("Date Of Origin", Terminal::getDateOfOrigin);
             put("Start Station", Terminal::getStartStation);
             put("End Station", Terminal::getEndStation);
-            put("Schedule Start Time", Terminal::getScheduleStartTime);
+            put("Scheduled Start Time", Terminal::getScheduledStartTime);
         }};
     }
 }

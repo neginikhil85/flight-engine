@@ -1,6 +1,7 @@
-package com.learning.ui.model;
+package com.learning.ui.model.grid;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
+import com.learning.ui.model.dto.FlightInfoDto;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
@@ -15,7 +16,7 @@ import java.util.List;
 @SuperBuilder
 @AllArgsConstructor
 @NoArgsConstructor
-public class DelayData extends FlightInfo {
+public class DelayData extends FlightInfoDto {
     private String delayLimit;
     private String remarks;
     private String total;

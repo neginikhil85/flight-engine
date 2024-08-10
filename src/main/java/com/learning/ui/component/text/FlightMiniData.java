@@ -1,8 +1,8 @@
 package com.learning.ui.component.text;
 
 import com.learning.ui.enums.FlightDataFields;
-import com.learning.ui.model.FlightCardModel;
-import com.learning.ui.model.FlightInfo;
+import com.learning.ui.model.card.FlightCardModel;
+import com.learning.ui.model.dto.FlightInfoDto;
 import com.vaadin.flow.component.Component;
 import com.vaadin.flow.component.icon.VaadinIcon;
 import com.vaadin.flow.component.orderedlayout.HorizontalLayout;
@@ -51,12 +51,12 @@ public class FlightMiniData extends VerticalLayout {
         return new HorizontalLayout(dataMap.get(field1), icon.create(), dataMap.get(field2));
     }
 
-    public void updateData(FlightInfo flightInfo) {
-        setValueIfPresent(flightInfo, FlightInfo::getCarrier, FlightDataFields.CARRIER);
-        setValueIfPresent(flightInfo, FlightInfo::getFlightNumber, FlightDataFields.FLIGHT_NUMBER);
-        setValueIfPresent(flightInfo, FlightInfo::getStartStation, FlightDataFields.START_STATION);
-        setValueIfPresent(flightInfo, FlightInfo::getEndStation, FlightDataFields.END_STATION);
-        setValueIfPresent(flightInfo, FlightInfo::getScheduleStartTime, FlightDataFields.SCHEDULED_START_TIME);
+    public void updateData(FlightInfoDto flightInfoDto) {
+        setValueIfPresent(flightInfoDto, FlightInfoDto::getCarrier, FlightDataFields.CARRIER);
+        setValueIfPresent(flightInfoDto, FlightInfoDto::getFlightNumber, FlightDataFields.FLIGHT_NUMBER);
+        setValueIfPresent(flightInfoDto, FlightInfoDto::getStartStation, FlightDataFields.START_STATION);
+        setValueIfPresent(flightInfoDto, FlightInfoDto::getEndStation, FlightDataFields.END_STATION);
+        setValueIfPresent(flightInfoDto, FlightInfoDto::getScheduledStartTime, FlightDataFields.SCHEDULED_START_TIME);
     }
 
     public <T> void setValueIfPresent(T obj, Function<T, ?> function, FlightDataFields field) {

@@ -1,8 +1,7 @@
 package com.learning.ui.component.card;
 
 import com.learning.ui.component.text.FlightMiniData;
-import com.learning.ui.model.FlightInfo;
-import com.learning.ui.model.FlightLegState;
+import com.learning.ui.model.dto.FlightInfoDto;
 
 import java.time.LocalDate;
 import java.time.LocalDateTime;
@@ -22,26 +21,15 @@ public class FlightDataCard extends CustomCard {
         cardModel.updateData(getFlightInfo());
     }
 
-    private FlightInfo getFlightInfo() {
-        return FlightInfo.builder()
+    private FlightInfoDto getFlightInfo() {
+        return FlightInfoDto.builder()
                 .flightNumber(12341)
                 .carrier("6E")
                 .dateOfOrigin(LocalDate.now())
                 .startStation("DEL")
                 .endStation("MUB")
-                .scheduleStartTime(getFormattedDateTime())
+                .scheduledStartTime(LocalDateTime.now())
                 .build();
-    }
-
-    private String getFormattedDateTime() {
-        // Define the formatter with the desired pattern
-        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd-MM-yyyy hh:mm a");
-
-        // Get the current date and time
-        LocalDateTime now = LocalDateTime.now();
-
-        // Format the date and time
-        return now.format(formatter);
     }
 
 }

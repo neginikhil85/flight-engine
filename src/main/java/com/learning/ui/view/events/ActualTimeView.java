@@ -4,8 +4,7 @@ import com.fasterxml.jackson.core.type.TypeReference;
 import com.learning.ui.component.grid.CustomGrid;
 import com.learning.ui.component.grid.provider.ColumnProviderFactory;
 import com.learning.ui.layout.MainLayout;
-import com.learning.ui.model.ActualTime;
-import com.learning.ui.model.EstimatedTime;
+import com.learning.ui.model.grid.ActualTime;
 import com.learning.util.JsonFileReader;
 import com.vaadin.flow.component.html.H1;
 import com.vaadin.flow.component.orderedlayout.VerticalLayout;
@@ -25,7 +24,6 @@ public class ActualTimeView extends VerticalLayout {
     }
 
     private List<ActualTime> getActualTimeData() {
-
         JsonFileReader fileReader = new JsonFileReader();
         return fileReader.readFile("src/main/resources/actual_time.json", new TypeReference<>() {
         });
