@@ -7,6 +7,7 @@ import org.springframework.stereotype.Component;
 
 import java.util.LinkedHashMap;
 import java.util.Map;
+
 @Component
 public class ActualTimeColumnProvider implements ColumnProvider<ActualTime> {
     @Override
@@ -18,7 +19,7 @@ public class ActualTimeColumnProvider implements ColumnProvider<ActualTime> {
     public Map<String, ValueProvider<ActualTime, ?>> getHeaderAndValueProviders() {
         return new LinkedHashMap<>() {{
             put("Flight No.", ActualTime::getFlightNumber);
-            put("Carrier", ActualTime::getCarrier);
+//            put("Carrier", ActualTime::getCarrier);
             put("Date Of Origin", ActualTime::getDateOfOrigin);
             put("Start Station", ActualTime::getStartStation);
             put("End Station", ActualTime::getEndStation);

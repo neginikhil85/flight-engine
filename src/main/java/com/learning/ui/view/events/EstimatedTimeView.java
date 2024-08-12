@@ -18,7 +18,7 @@ public class EstimatedTimeView extends VerticalLayout {
 
     public EstimatedTimeView(ColumnProviderFactory columnProviderFactory) {
         addClassName("delay-view");
-        H1 title = new H1("Estimated Time");
+        H1 title = new H1("Estimated Times");
         SearchableGrid<EstimatedTime> estimatedTimeGrid = new SearchableGrid<>(EstimatedTime.class, columnProviderFactory);
         estimatedTimeGrid.updateItems(getEstimatedTimeData());
         estimatedTimeGrid.setSearchFilters(GridFilterBean.ESTIMATED_TIME.getBean());

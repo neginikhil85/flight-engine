@@ -7,6 +7,7 @@ import org.springframework.stereotype.Component;
 
 import java.util.LinkedHashMap;
 import java.util.Map;
+
 @Component
 public class DoorCloseColumnProvider implements ColumnProvider<DoorClose> {
     @Override
@@ -23,6 +24,7 @@ public class DoorCloseColumnProvider implements ColumnProvider<DoorClose> {
             put("Start Station", DoorClose::getStartStation);
             put("End Station", DoorClose::getEndStation);
             put("Schedule Start Time", DoorClose::getScheduledStartTime);
+            put("Door close Time", safeValueProvider(doorClose -> doorClose.getCurrentActualTimes().getDoorClose()));
             put("In Block Time", safeValueProvider(doorClose -> doorClose.getCurrentActualTimes().getInBlock()));
             put("Off Block Time", safeValueProvider(doorClose -> doorClose.getCurrentActualTimes().getOffBlock()));
             put("Take Off Time", safeValueProvider(doorClose -> doorClose.getCurrentActualTimes().getTakeOffTime()));

@@ -7,6 +7,7 @@ import org.springframework.stereotype.Component;
 
 import java.util.LinkedHashMap;
 import java.util.Map;
+
 @Component
 public class GateChangeColumnProvider implements ColumnProvider<GateChange> {
     @Override
@@ -23,6 +24,12 @@ public class GateChangeColumnProvider implements ColumnProvider<GateChange> {
             put("Start Station", GateChange::getStartStation);
             put("End Station", GateChange::getEndStation);
             put("Scheduled Start Time", GateChange::getScheduledStartTime);
+            put("Start Terminal", safeValueProvider(gateChange -> gateChange.getCurrent().getStartTerminal()));
+            put("End Terminal", safeValueProvider(gateChange -> gateChange.getCurrent().getEndTerminal()));
+            put("Start Gate", safeValueProvider(gateChange -> gateChange.getCurrent().getStartGate()));
+            put("End Gate", safeValueProvider(gateChange -> gateChange.getCurrent().getStartGate()));
+            put("Start Stand", safeValueProvider(gateChange -> gateChange.getCurrent().getStartStand()));
+            put("End Stand", safeValueProvider(gateChange -> gateChange.getCurrent().getEndStand()));
         }};
     }
 }

@@ -15,7 +15,8 @@ public class OperationStatusDataGridFilters implements GridFilters<OperationStat
                     matchesTerm(String.valueOf(operationStatus.getDateOfOrigin()), searchTerm) ||
                     matchesTerm(String.valueOf(operationStatus.getStartStation()), searchTerm) ||
                     matchesTerm(String.valueOf(operationStatus.getEndStation()), searchTerm) ||
-                    matchesTerm(String.valueOf(operationStatus.getScheduledStartTime()), searchTerm);
+                    matchesTerm(String.valueOf(operationStatus.getScheduledStartTime()), searchTerm) ||
+                    matchesTerm(String.valueOf(operationStatus.getCurrentOperationalStatus()), searchTerm);
         };
     }
 }

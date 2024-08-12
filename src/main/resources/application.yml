@@ -5,7 +5,9 @@ spring:
 
 vaadin:
     whitelisted-packages: com.vaadin,org.vaadin,com.github.appreciated.apexcharts
-
+    devmode:
+        devTools:
+            enabled: false
 
 # user defined properties
 grid-column-provider:

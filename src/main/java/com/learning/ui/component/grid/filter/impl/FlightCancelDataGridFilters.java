@@ -10,12 +10,15 @@ public class FlightCancelDataGridFilters implements GridFilters<FlightCancel> {
         return flightCancel -> {
             if (searchTerm.isBlank())
                 return true;
-
             return matchesTerm(String.valueOf(flightCancel.getFlightNumber()), searchTerm) ||
                     matchesTerm(String.valueOf(flightCancel.getDateOfOrigin()), searchTerm) ||
                     matchesTerm(String.valueOf(flightCancel.getStartStation()), searchTerm) ||
                     matchesTerm(String.valueOf(flightCancel.getEndStation()), searchTerm) ||
-                    matchesTerm(String.valueOf(flightCancel.getScheduledStartTime()), searchTerm);
+                    matchesTerm(String.valueOf(flightCancel.getScheduledStartTime()), searchTerm) ||
+                    safeValueMatcher(flightCancel, fc -> fc.getCurrent().getFlightStatus(), searchTerm) ||
+                    safeValueMatcher(flightCancel, fc -> fc.getCurrent().getServiceType(), searchTerm) ||
+                    safeValueMatcher(flightCancel, fc -> fc.getCurrent().getOperationalStatus(), searchTerm) ||
+                    safeValueMatcher(flightCancel, fc -> fc.getCurrent().getCancellationCode(), searchTerm);
         };
     }
 }

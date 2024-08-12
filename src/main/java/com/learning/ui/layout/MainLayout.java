@@ -49,11 +49,11 @@ public class MainLayout extends AppLayout {
 
         SideNavItem events = new SideNavItem("Events");
         events.setPrefixComponent(VaadinIcon.EXCHANGE.create());
-        events.addItem(new SideNavItem("Delay Events", "/flight-delay"));
-        events.addItem(new SideNavItem("Diversion Events", "/flight-diversion"));
+        events.addItem(new SideNavItem("Delays", "/flight-delay"));
+        events.addItem(new SideNavItem("Diversions", "/flight-diversion"));
         events.addItem(new SideNavItem("Door Close", "/flight-door-close"));
-        events.addItem(new SideNavItem("Estimated Time", "/estimated-time"));
-        events.addItem(new SideNavItem("Actual Time", "/actual-time"));
+        events.addItem(new SideNavItem("Estimated Times", "/estimated-time"));
+        events.addItem(new SideNavItem("Actual Times", "/actual-time"));
         events.addItem(new SideNavItem("Equipment", "/equipment"));
         events.addItem(new SideNavItem("Flight Cancel", "/flight-cancel"));
         events.addItem(new SideNavItem("Flight Return", "/flight-return"));

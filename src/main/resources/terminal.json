@@ -5,7 +5,15 @@
     "dateOfOrigin": "2024-08-01",
     "startStation": "AYO",
     "endStation": "DEL",
-    "scheduledStartTime": "2024-08-01 10:00 am"
+    "scheduledStartTime": "2024-08-01 10:00 am",
+    "current": {
+      "startTerminal": "T1",
+      "endTerminal": "T3",
+      "startGate": "G12",
+      "endGate": "G45",
+      "startStand": "S5",
+      "endStand": "S10"
+    }
   },
   {
     "flightNumber": 2456,
@@ -13,7 +21,15 @@
     "dateOfOrigin": "2024-08-01",
     "startStation": "DEL",
     "endStation": "KAT",
-    "scheduledStartTime": "2024-08-01 01:30 pm"
+    "scheduledStartTime": "2024-08-01 01:30 pm",
+    "current": {
+      "startTerminal": "T3",
+      "endTerminal": "T2",
+      "startGate": "G7",
+      "endGate": "G9",
+      "startStand": "S12",
+      "endStand": "S18"
+    }
   },
   {
     "flightNumber": 7890,
@@ -21,7 +37,15 @@
     "dateOfOrigin": "2024-08-01",
     "startStation": "DEL",
     "endStation": "KED",
-    "scheduledStartTime": "2024-08-01 08:45 am"
+    "scheduledStartTime": "2024-08-01 08:45 am",
+    "current": {
+      "startTerminal": "T3",
+      "endTerminal": "T4",
+      "startGate": "G20",
+      "endGate": "G24",
+      "startStand": "S1",
+      "endStand": "S3"
+    }
   },
   {
     "flightNumber": 3354,
@@ -29,7 +53,15 @@
     "dateOfOrigin": "2024-08-01",
     "startStation": "BOM",
     "endStation": "HRD",
-    "scheduledStartTime": "2024-08-01 11:15 am"
+    "scheduledStartTime": "2024-08-01 11:15 am",
+    "current": {
+      "startTerminal": "T2",
+      "endTerminal": "T3",
+      "startGate": "G10",
+      "endGate": "G14",
+      "startStand": "S6",
+      "endStand": "S7"
+    }
   },
   {
     "flightNumber": 6745,
@@ -37,6 +69,14 @@
     "dateOfOrigin": "2024-08-01",
     "startStation": "CCU",
     "endStation": "MTR",
-    "scheduledStartTime": "2024-08-01 04:00 pm"
+    "scheduledStartTime": "2024-08-01 04:00 pm",
+    "current": {
+      "startTerminal": "T1",
+      "endTerminal": "T5",
+      "startGate": "G2",
+      "endGate": "G11",
+      "startStand": "S9",
+      "endStand": "S15"
+    }
   }
 ]

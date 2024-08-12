@@ -13,10 +13,18 @@
 
 .custom-grid .compact-button {
     font-size: 0.8rem;
-    background-color: #4c4cb7;
-    color: white;
-    border: 1px solid black;
-    height: 1.6rem;
+    background-color: rgba(255, 255, 255, 0.10); /* Semi-transparent white background */
+    color: #4c4cb7; /* Text color */
+    height: 1rem;
+    cursor: pointer;
+    border: 1px solid rgba(255, 255, 255, 0.1); /* Light border to enhance glass effect */
+    backdrop-filter: blur(10px); /* Frosted glass effect */
+    box-shadow: 0 0 0.3rem rgba(0, 0, 0, 0.2); /* Optional: Add a subtle shadow for depth */
+}
+
+.custom-grid .compact-button:hover {
+    color: #ba48aa;
+    background-color: rgba(255, 255, 255, 0.4);
 }
 
 .custom-dialog {

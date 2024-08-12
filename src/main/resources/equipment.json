@@ -5,7 +5,16 @@
     "dateOfOrigin": "2024-08-01",
     "startStation": "AYO",
     "endStation": "DEL",
-    "scheduledStartTime": "2024-08-01 10:00 am"
+    "scheduledStartTime": "2024-08-01 10:00 am",
+    "current": {
+      "plannedAircraftType": "A320",
+      "aircraft": {
+        "registration": "VT-ABC",
+        "type": "A320"
+      },
+      "aircraftConfiguration": "Standard",
+      "assignedAircraftConfiguration": "Economy"
+    }
   },
   {
     "flightNumber": 2456,
@@ -13,7 +22,16 @@
     "dateOfOrigin": "2024-08-01",
     "startStation": "DEL",
     "endStation": "KAT",
-    "scheduledStartTime": "2024-08-01 01:30 pm"
+    "scheduledStartTime": "2024-08-01 01:30 pm",
+    "current": {
+      "plannedAircraftType": "B737",
+      "aircraft": {
+        "registration": "VT-XYZ",
+        "type": "B737"
+      },
+      "aircraftConfiguration": "Business",
+      "assignedAircraftConfiguration": "Premium"
+    }
   },
   {
     "flightNumber": 7890,
@@ -21,7 +39,16 @@
     "dateOfOrigin": "2024-08-01",
     "startStation": "DEL",
     "endStation": "KED",
-    "scheduledStartTime": "2024-08-01 08:45 am"
+    "scheduledStartTime": "2024-08-01 08:45 am",
+    "current": {
+      "plannedAircraftType": "A321",
+      "aircraft": {
+        "registration": "VT-DEF",
+        "type": "A321"
+      },
+      "aircraftConfiguration": "Standard",
+      "assignedAircraftConfiguration": "Economy"
+    }
   },
   {
     "flightNumber": 3354,
@@ -29,7 +56,16 @@
     "dateOfOrigin": "2024-08-01",
     "startStation": "BOM",
     "endStation": "HRD",
-    "scheduledStartTime": "2024-08-01 11:15 am"
+    "scheduledStartTime": "2024-08-01 11:15 am",
+    "current": {
+      "plannedAircraftType": "A319",
+      "aircraft": {
+        "registration": "VT-GHI",
+        "type": "A319"
+      },
+      "aircraftConfiguration": "Premium",
+      "assignedAircraftConfiguration": "Standard"
+    }
   },
   {
     "flightNumber": 6745,
@@ -37,6 +73,15 @@
     "dateOfOrigin": "2024-08-01",
     "startStation": "CCU",
     "endStation": "MTR",
-    "scheduledStartTime": "2024-08-01 04:00 pm"
+    "scheduledStartTime": "2024-08-01 04:00 pm",
+    "current": {
+      "plannedAircraftType": "B787",
+      "aircraft": {
+        "registration": "VT-JKL",
+        "type": "B787"
+      },
+      "aircraftConfiguration": "Business",
+      "assignedAircraftConfiguration": "Premium"
+    }
   }
 ]

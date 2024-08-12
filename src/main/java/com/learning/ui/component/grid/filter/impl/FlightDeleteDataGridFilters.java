@@ -15,7 +15,8 @@ public class FlightDeleteDataGridFilters implements GridFilters<FlightDelete> {
                     matchesTerm(String.valueOf(flightDelete.getDateOfOrigin()), searchTerm) ||
                     matchesTerm(String.valueOf(flightDelete.getStartStation()), searchTerm) ||
                     matchesTerm(String.valueOf(flightDelete.getEndStation()), searchTerm) ||
-                    matchesTerm(String.valueOf(flightDelete.getScheduledStartTime()), searchTerm);
+                    matchesTerm(String.valueOf(flightDelete.getScheduledStartTime()), searchTerm) ||
+                    matchesTerm(String.valueOf(flightDelete.getOperationalStatus()), searchTerm);
         };
     }
 }

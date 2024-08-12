@@ -5,7 +5,8 @@
     "dateOfOrigin": "2024-08-01",
     "startStation": "AYO",
     "endStation": "DEL",
-    "scheduledStartTime": "2024-08-01 10:00 am"
+    "scheduledStartTime": "2024-08-01 10:00 am",
+    "operationalStatus": "Cancelled"
   },
   {
     "flightNumber": 2456,
@@ -13,7 +14,8 @@
     "dateOfOrigin": "2024-08-01",
     "startStation": "DEL",
     "endStation": "KAT",
-    "scheduledStartTime": "2024-08-01 01:30 pm"
+    "scheduledStartTime": "2024-08-01 01:30 pm",
+    "operationalStatus": "Delayed"
   },
   {
     "flightNumber": 7890,
@@ -21,7 +23,8 @@
     "dateOfOrigin": "2024-08-01",
     "startStation": "DEL",
     "endStation": "KED",
-    "scheduledStartTime": "2024-08-01 08:45 am"
+    "scheduledStartTime": "2024-08-01 08:45 am",
+    "operationalStatus": "On Time"
   },
   {
     "flightNumber": 3354,
@@ -29,7 +32,8 @@
     "dateOfOrigin": "2024-08-01",
     "startStation": "BOM",
     "endStation": "HRD",
-    "scheduledStartTime": "2024-08-01 11:15 am"
+    "scheduledStartTime": "2024-08-01 11:15 am",
+    "operationalStatus": "Cancelled"
   },
   {
     "flightNumber": 6745,
@@ -37,6 +41,7 @@
     "dateOfOrigin": "2024-08-01",
     "startStation": "CCU",
     "endStation": "MTR",
-    "scheduledStartTime": "2024-08-01 04:00 pm"
+    "scheduledStartTime": "2024-08-01 04:00 pm",
+    "operationalStatus": "On Time"
   }
 ]

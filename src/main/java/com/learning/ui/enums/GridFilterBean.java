@@ -2,7 +2,6 @@ package com.learning.ui.enums;
 
 import com.learning.ui.component.grid.filter.GridFilters;
 import com.learning.ui.component.grid.filter.impl.*;
-import com.learning.ui.model.grid.*;
 import lombok.Getter;
 
 import java.util.Map;

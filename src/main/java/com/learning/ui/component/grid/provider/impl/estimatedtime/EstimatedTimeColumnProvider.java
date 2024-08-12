@@ -7,6 +7,7 @@ import org.springframework.stereotype.Component;
 
 import java.util.LinkedHashMap;
 import java.util.Map;
+
 @Component
 public class EstimatedTimeColumnProvider implements ColumnProvider<EstimatedTime> {
 

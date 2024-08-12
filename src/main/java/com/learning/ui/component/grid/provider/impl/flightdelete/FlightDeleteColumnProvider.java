@@ -7,6 +7,7 @@ import org.springframework.stereotype.Component;
 
 import java.util.LinkedHashMap;
 import java.util.Map;
+
 @Component
 public class FlightDeleteColumnProvider implements ColumnProvider<FlightDelete> {
     @Override
@@ -23,6 +24,7 @@ public class FlightDeleteColumnProvider implements ColumnProvider<FlightDelete> 
             put("Start Station", FlightDelete::getStartStation);
             put("End Station", FlightDelete::getEndStation);
             put("Scheduled Start Time", FlightDelete::getScheduledStartTime);
+            put("Operational Status", FlightDelete::getOperationalStatus);
         }};
     }
 }

@@ -1,7 +1,9 @@
 package com.learning.ui.model.grid;
 
 import com.learning.ui.model.dto.FlightInfoDto;
-import lombok.*;
+import lombok.Data;
+import lombok.EqualsAndHashCode;
+import lombok.NoArgsConstructor;
 import lombok.experimental.SuperBuilder;
 
 @EqualsAndHashCode(callSuper = true)

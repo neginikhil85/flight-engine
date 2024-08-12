@@ -10,10 +10,10 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @NoArgsConstructor
 public class GateTerminalDto {
-    private String startGate;
-    private String endGate;
     private String startTerminal;
     private String endTerminal;
+    private String startGate;
+    private String endGate;
     private String startStand;
     private String endStand;
 }

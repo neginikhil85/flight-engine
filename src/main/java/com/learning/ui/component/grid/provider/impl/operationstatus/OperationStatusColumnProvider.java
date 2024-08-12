@@ -7,6 +7,7 @@ import org.springframework.stereotype.Component;
 
 import java.util.LinkedHashMap;
 import java.util.Map;
+
 @Component
 public class OperationStatusColumnProvider implements ColumnProvider<OperationStatus> {
     @Override
@@ -23,6 +24,7 @@ public class OperationStatusColumnProvider implements ColumnProvider<OperationSt
             put("Start Station", OperationStatus::getStartStation);
             put("End Station", OperationStatus::getEndStation);
             put("Scheduled Start Time", OperationStatus::getScheduledStartTime);
+            put("Operational Status", OperationStatus::getCurrentOperationalStatus);
         }};
     }
 }

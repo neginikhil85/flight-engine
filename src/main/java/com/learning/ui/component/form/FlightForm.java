@@ -1,9 +1,7 @@
 package com.learning.ui.component.form;
 
 import com.learning.ui.component.picker.VerticalDateTimePicker;
-import com.learning.ui.enums.FlightDataFields;
 import com.vaadin.flow.component.AbstractField;
-import com.vaadin.flow.component.Component;
 import com.vaadin.flow.component.accordion.Accordion;
 import com.vaadin.flow.component.formlayout.FormLayout;
 import com.vaadin.flow.component.orderedlayout.VerticalLayout;

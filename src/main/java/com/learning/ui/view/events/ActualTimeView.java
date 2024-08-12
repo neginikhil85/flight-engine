@@ -17,7 +17,7 @@ import java.util.List;
 public class ActualTimeView extends VerticalLayout {
     public ActualTimeView(ColumnProviderFactory columnProviderFactory) {
         addClassName("delay-view");
-        H1 title = new H1("Actual Time");
+        H1 title = new H1("Actual Times");
         SearchableGrid<ActualTime> actualTimeGrid = new SearchableGrid<>(ActualTime.class, columnProviderFactory);
         actualTimeGrid.updateItems(getActualTimeData());
         actualTimeGrid.setSearchFilters(GridFilterBean.ACTUAL_TIME.getBean());

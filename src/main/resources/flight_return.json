@@ -5,7 +5,25 @@
     "dateOfOrigin": "2024-08-01",
     "startStation": "AYO",
     "endStation": "DEL",
-    "scheduledStartTime": "2024-08-01 10:00 am"
+    "scheduledStartTime": "2024-08-01 10:00 am",
+    "returnAtom": {
+      "returnNumber": 1112,
+      "aircraft": "Airbus A320",
+      "inBlockFuel": 5000,
+      "scheduleStatus": "On Schedule",
+      "estimatedTimes": {
+        "inBlock": "2024-08-01 12:00 pm",
+        "offBlock": "2024-08-01 09:45 am",
+        "takeOffTime": "2024-08-01 10:00 am",
+        "landingTime": "2024-08-01 11:45 am"
+      },
+      "actualTimes": {
+        "inBlock": "2024-08-01 12:10 pm",
+        "offBlock": "2024-08-01 09:50 am",
+        "takeOffTime": "2024-08-01 10:05 am",
+        "landingTime": "2024-08-01 11:50 am"
+      }
+    }
   },
   {
     "flightNumber": 2456,
@@ -13,7 +31,25 @@
     "dateOfOrigin": "2024-08-01",
     "startStation": "DEL",
     "endStation": "KAT",
-    "scheduledStartTime": "2024-08-01 01:30 pm"
+    "scheduledStartTime": "2024-08-01 01:30 pm",
+    "returnAtom": {
+      "returnNumber": 2456,
+      "aircraft": "Boeing 737",
+      "inBlockFuel": 7000,
+      "scheduleStatus": "Delayed",
+      "estimatedTimes": {
+        "inBlock": "2024-08-01 03:30 pm",
+        "offBlock": "2024-08-01 01:15 pm",
+        "takeOffTime": "2024-08-01 01:45 pm",
+        "landingTime": "2024-08-01 03:15 pm"
+      },
+      "actualTimes": {
+        "inBlock": "2024-08-01 03:45 pm",
+        "offBlock": "2024-08-01 01:25 pm",
+        "takeOffTime": "2024-08-01 01:55 pm",
+        "landingTime": "2024-08-01 03:40 pm"
+      }
+    }
   },
   {
     "flightNumber": 7890,
@@ -21,7 +57,25 @@
     "dateOfOrigin": "2024-08-01",
     "startStation": "DEL",
     "endStation": "KED",
-    "scheduledStartTime": "2024-08-01 08:45 am"
+    "scheduledStartTime": "2024-08-01 08:45 am",
+    "returnAtom": {
+      "returnNumber": 7890,
+      "aircraft": "Airbus A320",
+      "inBlockFuel": 4800,
+      "scheduleStatus": "On Schedule",
+      "estimatedTimes": {
+        "inBlock": "2024-08-01 10:45 am",
+        "offBlock": "2024-08-01 08:30 am",
+        "takeOffTime": "2024-08-01 08:45 am",
+        "landingTime": "2024-08-01 10:30 am"
+      },
+      "actualTimes": {
+        "inBlock": "2024-08-01 10:50 am",
+        "offBlock": "2024-08-01 08:35 am",
+        "takeOffTime": "2024-08-01 08:50 am",
+        "landingTime": "2024-08-01 10:35 am"
+      }
+    }
   },
   {
     "flightNumber": 3354,
@@ -29,7 +83,25 @@
     "dateOfOrigin": "2024-08-01",
     "startStation": "BOM",
     "endStation": "HRD",
-    "scheduledStartTime": "2024-08-01 11:15 am"
+    "scheduledStartTime": "2024-08-01 11:15 am",
+    "returnAtom": {
+      "returnNumber": 3354,
+      "aircraft": "Airbus A320",
+      "inBlockFuel": 5200,
+      "scheduleStatus": "On Schedule",
+      "estimatedTimes": {
+        "inBlock": "2024-08-01 01:15 pm",
+        "offBlock": "2024-08-01 11:00 am",
+        "takeOffTime": "2024-08-01 11:15 am",
+        "landingTime": "2024-08-01 01:00 pm"
+      },
+      "actualTimes": {
+        "inBlock": "2024-08-01 01:20 pm",
+        "offBlock": "2024-08-01 11:10 am",
+        "takeOffTime": "2024-08-01 11:20 am",
+        "landingTime": "2024-08-01 01:05 pm"
+      }
+    }
   },
   {
     "flightNumber": 6745,
@@ -37,6 +109,24 @@
     "dateOfOrigin": "2024-08-01",
     "startStation": "CCU",
     "endStation": "MTR",
-    "scheduledStartTime": "2024-08-01 04:00 pm"
+    "scheduledStartTime": "2024-08-01 04:00 pm",
+    "returnAtom": {
+      "returnNumber": 6745,
+      "aircraft": "Boeing 737",
+      "inBlockFuel": 6500,
+      "scheduleStatus": "Delayed",
+      "estimatedTimes": {
+        "inBlock": "2024-08-01 06:00 pm",
+        "offBlock": "2024-08-01 03:45 pm",
+        "takeOffTime": "2024-08-01 04:10 pm",
+        "landingTime": "2024-08-01 05:50 pm"
+      },
+      "actualTimes": {
+        "inBlock": "2024-08-01 06:15 pm",
+        "offBlock": "2024-08-01 03:55 pm",
+        "takeOffTime": "2024-08-01 04:20 pm",
+        "landingTime": "2024-08-01 06:00 pm"
+      }
+    }
   }
 ]

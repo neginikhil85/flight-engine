@@ -15,7 +15,11 @@ public class FlightReturnDataGridFilters implements GridFilters<FlightReturn> {
                     matchesTerm(String.valueOf(flightReturn.getDateOfOrigin()), searchTerm) ||
                     matchesTerm(String.valueOf(flightReturn.getStartStation()), searchTerm) ||
                     matchesTerm(String.valueOf(flightReturn.getEndStation()), searchTerm) ||
-                    matchesTerm(String.valueOf(flightReturn.getScheduledStartTime()), searchTerm);
+                    matchesTerm(String.valueOf(flightReturn.getScheduledStartTime()), searchTerm) ||
+                    safeValueMatcher(flightReturn, fr -> fr.getReturnAtom().getReturnNumber(), searchTerm) ||
+                    safeValueMatcher(flightReturn, fr -> fr.getReturnAtom().getAircraft(), searchTerm) ||
+                    safeValueMatcher(flightReturn, fr -> fr.getReturnAtom().getInBlockFuel(), searchTerm) ||
+                    safeValueMatcher(flightReturn, fr -> fr.getReturnAtom().getScheduleStatus(), searchTerm);
         };
     }
     }

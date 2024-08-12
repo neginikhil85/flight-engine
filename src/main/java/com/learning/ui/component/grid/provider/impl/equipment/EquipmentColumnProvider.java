@@ -7,6 +7,7 @@ import org.springframework.stereotype.Component;
 
 import java.util.LinkedHashMap;
 import java.util.Map;
+
 @Component
 public class EquipmentColumnProvider implements ColumnProvider<Equipment> {
     @Override
@@ -23,6 +24,11 @@ public class EquipmentColumnProvider implements ColumnProvider<Equipment> {
             put("Start Station", Equipment::getStartStation);
             put("End Station", Equipment::getEndStation);
             put("Scheduled Start Time", Equipment::getScheduledStartTime);
+            put("Planned Aircraft Type", safeValueProvider(equipment -> equipment.getCurrent().getPlannedAircraftType()));
+            put("Aircraft Registration", safeValueProvider(equipment -> equipment.getCurrent().getAircraft().getRegistration()));
+            put("Aircraft Type", safeValueProvider(equipment -> equipment.getCurrent().getAircraft().getType()));
+            put("Aircraft Configuration", safeValueProvider(equipment -> equipment.getCurrent().getAircraftConfiguration()));
+            put("Assigned Aircraft Configuration", safeValueProvider(equipment -> equipment.getCurrent().getAssignedAircraftConfiguration()));
         }};
     }
 }

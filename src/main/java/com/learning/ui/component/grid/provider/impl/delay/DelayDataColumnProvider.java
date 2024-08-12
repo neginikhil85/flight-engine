@@ -5,7 +5,6 @@ import com.learning.ui.component.grid.provider.ColumnProvider;
 import com.learning.ui.component.grid.provider.ColumnProviderFactory;
 import com.learning.ui.model.grid.DelayData;
 import com.vaadin.flow.component.button.Button;
-import com.vaadin.flow.component.icon.VaadinIcon;
 import com.vaadin.flow.data.renderer.ComponentRenderer;
 import com.vaadin.flow.function.ValueProvider;
 import org.springframework.beans.factory.annotation.Value;
@@ -51,7 +50,7 @@ public class DelayDataColumnProvider implements ColumnProvider<DelayData> {
         return List.of(
                 new CustomColumn<>("Delays", new ComponentRenderer<>(item -> {
                     Button viewBtn = new Button("view");
-                    viewBtn.setIcon(VaadinIcon.EYE.create());
+//                    viewBtn.setIcon(VaadinIcon.EYE.create());
                     viewBtn.addClassNames("compact-button");
                     viewBtn.addClickListener(click -> {
                         DelayDialog dialog = new DelayDialog(item.getDelays(), factory);

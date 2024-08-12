@@ -9,7 +9,7 @@ import com.vaadin.flow.component.html.H1;
 import com.vaadin.flow.component.orderedlayout.VerticalLayout;
 import org.springframework.util.StringUtils;
 
-import java.awt.Color;
+import java.awt.*;
 import java.util.Collection;
 
 public class CustomCard extends VerticalLayout {

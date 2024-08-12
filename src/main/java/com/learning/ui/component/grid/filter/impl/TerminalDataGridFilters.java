@@ -15,7 +15,13 @@ public class TerminalDataGridFilters implements GridFilters<Terminal> {
                     matchesTerm(String.valueOf(terminal.getDateOfOrigin()), searchTerm) ||
                     matchesTerm(String.valueOf(terminal.getStartStation()), searchTerm) ||
                     matchesTerm(String.valueOf(terminal.getEndStation()), searchTerm) ||
-                    matchesTerm(String.valueOf(terminal.getScheduledStartTime()), searchTerm);
+                    matchesTerm(String.valueOf(terminal.getScheduledStartTime()), searchTerm) ||
+                    safeValueMatcher(terminal, t -> t.getCurrent().getStartTerminal(), searchTerm) ||
+                    safeValueMatcher(terminal, t -> t.getCurrent().getEndTerminal(), searchTerm) ||
+                    safeValueMatcher(terminal, t -> t.getCurrent().getStartGate(), searchTerm) ||
+                    safeValueMatcher(terminal, t -> t.getCurrent().getEndGate(), searchTerm) ||
+                    safeValueMatcher(terminal, t -> t.getCurrent().getStartStand(), searchTerm) ||
+                    safeValueMatcher(terminal, t -> t.getCurrent().getEndStand(), searchTerm);
         };
     }
 }
